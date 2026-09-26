@@ -13,6 +13,7 @@ import {
   Zap,
 } from "lucide-react";
 import { Nav } from "./components/nav";
+import { QuoteForm } from "./components/quote-form";
 import { Reveal } from "./components/reveal";
 import { Eyebrow, Muted, PillButton } from "./components/ui";
 
@@ -38,7 +39,7 @@ export default function Home() {
 function Hero() {
   return (
     <section className="p-2 sm:p-3">
-      <div className="relative isolate min-h-[640px] overflow-hidden rounded-[28px] sm:min-h-[760px] sm:rounded-[36px] lg:h-[calc(100svh-24px)] lg:max-h-[920px]">
+      <div className="relative isolate flex min-h-[640px] flex-col overflow-hidden rounded-[28px] sm:min-h-[760px] sm:rounded-[36px] lg:min-h-[min(calc(100svh-24px),920px)]">
         <Image
           src="/images/hero.jpg"
           alt="High-voltage transmission lines crossing an open landscape under a clear blue sky"
@@ -53,7 +54,7 @@ function Hero() {
 
         <Nav />
 
-        <div className="mx-auto flex h-full max-w-[1240px] flex-col justify-between px-6 pt-36 pb-8 sm:px-10 sm:pt-44 lg:pt-52">
+        <div className="mx-auto flex w-full max-w-[1240px] flex-1 flex-col justify-between gap-14 px-6 pt-36 pb-8 sm:px-10 sm:pt-40 lg:pt-44">
           <div className="max-w-2xl">
             <Reveal>
               <Eyebrow tone="dark">Wholesale energy for suppliers</Eyebrow>
@@ -83,7 +84,7 @@ function Hero() {
             </Reveal>
           </div>
 
-          <div className="mt-16 flex flex-col items-start justify-between gap-6 lg:mt-0 lg:flex-row lg:items-end">
+          <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
             {/* Glass product card, AeroWind-style */}
             <Reveal delay={0.3} className="hidden sm:block">
               <div className="flex items-center gap-4 rounded-3xl border border-white/25 bg-white/10 p-2 pr-8 backdrop-blur-xl">
@@ -708,23 +709,7 @@ function Footer() {
               <p className="mt-1 text-sm text-white/60">
                 Share your volumes — we reply within one business day.
               </p>
-              <form className="mt-6 flex gap-2 rounded-full bg-white/10 p-1.5 ring-1 ring-white/15 focus-within:ring-sky">
-                <label htmlFor="email" className="sr-only">
-                  Work email
-                </label>
-                <input
-                  id="email"
-                  type="email"
-                  placeholder="Your work email"
-                  className="min-w-0 flex-1 bg-transparent px-4 text-sm text-white placeholder:text-white/45 focus:outline-none"
-                />
-                <button
-                  type="submit"
-                  className="rounded-full bg-sky px-5 py-2.5 text-sm font-medium text-brand-ink transition-colors hover:bg-white"
-                >
-                  Contact us
-                </button>
-              </form>
+              <QuoteForm />
             </div>
           </div>
 
