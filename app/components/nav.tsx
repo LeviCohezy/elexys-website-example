@@ -12,9 +12,9 @@ import { Menu, X } from "lucide-react";
 
 const links = [
   { label: "Home", href: "#" },
-  { label: "Solutions", href: "#solutions" },
-  { label: "Supply models", href: "#supply" },
-  { label: "About", href: "#team" },
+  { label: "Oplossingen", href: "#solutions" },
+  { label: "Leveringsmodellen", href: "#supply" },
+  { label: "Over ons", href: "#team" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -48,7 +48,7 @@ function StickyBar({ visible }: { visible: boolean }) {
       }`}
     >
       <nav className="mx-auto flex max-w-[1240px] items-center justify-between rounded-full border border-line bg-white/85 py-2 pr-2 pl-5 shadow-lg shadow-brand-ink/5 backdrop-blur-xl">
-        <Link href="#" aria-label="Elexys home" className="shrink-0">
+        <Link href="#" aria-label="Elexys startpagina" className="shrink-0">
           <Image
             src="/brand/elexys-logo.png"
             alt="Elexys"
@@ -73,7 +73,7 @@ function StickyBar({ visible }: { visible: boolean }) {
           href="#contact"
           className="rounded-full bg-brand px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-brand-deep"
         >
-          Talk to our desk
+          Contacteer onze desk
         </Link>
       </nav>
     </div>
@@ -90,7 +90,7 @@ function HeroBar({
   return (
     <header className="absolute inset-x-0 top-0 z-30 p-4 sm:p-6">
       <nav className="mx-auto flex max-w-[1240px] items-center justify-between rounded-full border border-white/20 bg-white/10 py-2 pr-2 pl-5 backdrop-blur-xl">
-        <Link href="#" aria-label="Elexys home" className="shrink-0">
+        <Link href="#" aria-label="Elexys startpagina" className="shrink-0">
           <Image
             src="/brand/elexys-logo-white.png"
             alt="Elexys"
@@ -123,12 +123,12 @@ function HeroBar({
             href="#contact"
             className="hidden rounded-full bg-white px-5 py-2.5 text-sm font-medium text-brand transition-colors hover:bg-sky-soft sm:inline-flex"
           >
-            Talk to our desk
+            Contacteer onze desk
           </Link>
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
-            aria-label={open ? "Close menu" : "Open menu"}
+            aria-label={open ? "Menu sluiten" : "Menu openen"}
             aria-expanded={open}
             className="grid size-10 place-items-center rounded-full bg-white/15 text-white lg:hidden"
           >
@@ -154,7 +154,7 @@ function HeroBar({
             onClick={() => setOpen(false)}
             className="mt-2 block rounded-2xl bg-brand px-4 py-3 text-center font-medium text-white"
           >
-            Talk to our desk
+            Contacteer onze desk
           </Link>
         </div>
       )}

@@ -12,9 +12,9 @@ export function QuoteForm() {
   function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const email = new FormData(e.currentTarget).get("email");
-    const subject = encodeURIComponent("Supply quote request");
+    const subject = encodeURIComponent("Aanvraag leveringsofferte");
     const body = encodeURIComponent(
-      `Hello Elexys desk,\n\nPlease contact me about a supply proposal.\n\nReply to: ${email}\n`,
+      `Beste Elexys-desk,\n\nGraag word ik gecontacteerd over een leveringsvoorstel.\n\nAntwoorden naar: ${email}\n`,
     );
     window.location.href = `mailto:${DESK_EMAIL}?subject=${subject}&body=${body}`;
     setSent(true);
@@ -26,8 +26,8 @@ export function QuoteForm() {
         <span className="grid size-6 place-items-center rounded-full bg-sky text-brand-ink">
           <Check className="size-3.5" />
         </span>
-        Thanks — finish sending in your mail app and we&apos;ll reply within
-        one business day.
+        Bedankt — verstuur de e-mail in uw mailprogramma en we antwoorden
+        binnen één werkdag.
       </p>
     );
   }
@@ -38,7 +38,7 @@ export function QuoteForm() {
       className="mt-6 flex gap-2 rounded-full bg-white/10 p-1.5 ring-1 ring-white/15 focus-within:ring-sky"
     >
       <label htmlFor="email" className="sr-only">
-        Work email
+        Zakelijk e-mailadres
       </label>
       <input
         id="email"
@@ -46,14 +46,14 @@ export function QuoteForm() {
         type="email"
         required
         autoComplete="email"
-        placeholder="Your work email"
+        placeholder="Uw zakelijk e-mailadres"
         className="min-w-0 flex-1 bg-transparent px-4 text-sm text-white placeholder:text-white/45 focus:outline-none"
       />
       <button
         type="submit"
         className="rounded-full bg-sky px-5 py-2.5 text-sm font-medium text-brand-ink transition-colors hover:bg-white"
       >
-        Contact us
+        Contacteer ons
       </button>
     </form>
   );

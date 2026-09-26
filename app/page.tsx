@@ -42,7 +42,7 @@ function Hero() {
       <div className="relative isolate flex min-h-[640px] flex-col overflow-hidden rounded-[28px] sm:min-h-[760px] sm:rounded-[36px] lg:min-h-[min(calc(100svh-24px),920px)]">
         <Image
           src="/images/hero.jpg"
-          alt="High-voltage transmission lines crossing an open landscape under a clear blue sky"
+          alt="Hoogspanningslijnen door een open landschap onder een helderblauwe lucht"
           fill
           preload
           sizes="100vw"
@@ -57,29 +57,29 @@ function Hero() {
         <div className="mx-auto flex w-full max-w-[1240px] flex-1 flex-col justify-between gap-14 px-6 pt-36 pb-8 sm:px-10 sm:pt-40 lg:pt-44">
           <div className="max-w-2xl">
             <Reveal>
-              <Eyebrow tone="dark">Wholesale energy for suppliers</Eyebrow>
+              <Eyebrow tone="dark">Groothandel in energie voor leveranciers</Eyebrow>
             </Reveal>
             <Reveal delay={0.08}>
               <h1 className="mt-7 text-[44px] leading-[1.02] font-medium tracking-[-0.035em] text-white sm:text-7xl lg:text-[88px]">
-                The power behind
+                De energie achter
                 <br />
-                <span className="font-light text-sky">your power.</span>
+                <span className="font-light text-sky">uw energie.</span>
               </h1>
             </Reveal>
             <Reveal delay={0.16}>
               <p className="mt-7 max-w-md text-[15px] leading-relaxed text-white/80 sm:text-base">
-                Elexys sources, balances and delivers electricity and gas to
-                licensed energy suppliers — so you can focus on your customers
-                while we handle the market.
+                Elexys koopt, balanceert en levert elektriciteit en gas aan
+                vergunde energieleveranciers — zodat u zich op uw klanten kunt
+                focussen, terwijl wij de markt opvolgen.
               </p>
             </Reveal>
             <Reveal delay={0.24} className="mt-9 flex flex-wrap items-center gap-4">
-              <PillButton href="#contact">Request a supply quote</PillButton>
+              <PillButton href="#contact">Vraag een leveringsofferte aan</PillButton>
               <Link
                 href="#solutions"
                 className="text-sm font-medium text-white/85 underline decoration-white/30 underline-offset-8 transition-colors hover:text-white hover:decoration-white"
               >
-                Explore our solutions
+                Ontdek onze oplossingen
               </Link>
             </Reveal>
           </div>
@@ -99,13 +99,13 @@ function Hero() {
                 </div>
                 <div>
                   <span className="rounded-full bg-sky px-2.5 py-0.5 text-[11px] font-medium text-brand-ink">
-                    New
+                    Nieuw
                   </span>
                   <p className="mt-2 text-xl font-light text-white">
                     Green Supply Pro
                   </p>
                   <p className="mt-1 text-xs text-white/70">
-                    Certified renewable volumes, bundled with GoOs
+                    Gecertificeerde hernieuwbare volumes, inclusief garanties van oorsprong
                   </p>
                 </div>
               </div>
@@ -128,7 +128,7 @@ function Hero() {
                     40+
                   </p>
                   <p className="mt-1 max-w-[190px] text-xs leading-snug text-muted">
-                    Energy suppliers trust Elexys for their wholesale position
+                    energieleveranciers vertrouwen op Elexys voor hun groothandelspositie
                   </p>
                 </div>
               </div>
@@ -158,7 +158,7 @@ function Partners() {
   return (
     <section className="py-14 sm:py-16">
       <p className="text-center text-xs font-medium tracking-[0.18em] text-subtle uppercase">
-        Supplying suppliers across Belgium &amp; the Benelux
+        Wij beleveren leveranciers in heel België en de Benelux
       </p>
       <div className="relative mx-auto mt-8 max-w-[1240px] overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_12%,black_88%,transparent)]">
         <div className="animate-marquee flex w-max gap-16 pr-16">
@@ -189,13 +189,13 @@ function Features() {
     <section className="mx-auto max-w-[1240px] px-6 py-20 sm:px-10 sm:py-28">
       <div className="grid gap-8 lg:grid-cols-[1fr_1.6fr]">
         <Reveal>
-          <Eyebrow>Why Elexys</Eyebrow>
+          <Eyebrow>Waarom Elexys</Eyebrow>
         </Reveal>
         <Reveal delay={0.08}>
           <h2 className="text-4xl leading-[1.08] font-medium tracking-[-0.03em] sm:text-5xl">
-            Smart sourcing, balanced portfolios.
+            Slimme inkoop, gebalanceerde portefeuilles.
             <br />
-            <Muted>Delivered without friction.</Muted>
+            <Muted>Zorgeloos geleverd.</Muted>
           </h2>
         </Reveal>
       </div>
@@ -205,22 +205,22 @@ function Features() {
           <article className="flex h-full min-h-[380px] flex-col justify-between rounded-[28px] bg-surface p-8">
             <div className="flex items-start justify-between gap-6">
               <h3 className="text-2xl leading-tight font-medium tracking-tight">
-                Day-ahead to multi-year hedging
+                Van day-ahead tot meerjarige indekking
               </h3>
               <span className="grid size-11 shrink-0 place-items-center rounded-full bg-white text-brand">
                 <Zap className="size-5" />
               </span>
             </div>
             <p className="max-w-[260px] text-sm leading-relaxed text-muted">
-              Lock in volumes on the forward curve or float with spot — tailored
-              to the risk appetite of your book.
+              Leg volumes vast op de forwardcurve of volg de spotmarkt —
+              afgestemd op de risicobereidheid van uw portefeuille.
             </p>
             <p className="flex items-baseline gap-3">
               <span className="text-5xl font-medium tracking-tight text-ink">
                 24/7
               </span>
               <span className="text-sm font-medium text-ink">
-                Balancing desk
+                Balanceringsdesk
               </span>
             </p>
           </article>
@@ -230,7 +230,7 @@ function Features() {
           <article className="relative isolate flex h-full min-h-[380px] flex-col justify-between overflow-hidden rounded-[28px] p-8 text-white">
             <Image
               src="/images/trading.jpg"
-              alt="Energy traders monitoring price curves"
+              alt="Energietraders volgen prijscurves op"
               fill
               sizes="(min-width: 768px) 33vw, 100vw"
               className="-z-10 object-cover"
@@ -238,17 +238,17 @@ function Features() {
             <div className="absolute inset-0 -z-10 bg-gradient-to-b from-brand-ink/75 via-brand-ink/20 to-brand-ink/40" />
             <div>
               <h3 className="text-2xl leading-tight font-medium tracking-tight">
-                Portfolio
+                Portefeuille-
                 <br />
-                optimisation
+                optimalisatie
               </h3>
               <p className="mt-3 max-w-[240px] text-sm leading-relaxed text-white/80">
-                Continuous re-balancing of your position against live market
-                signals.
+                Continue herbalancering van uw positie op basis van live
+                marktsignalen.
               </p>
             </div>
             <span className="self-start rounded-full bg-white px-4 py-2 text-xs font-medium text-ink">
-              <strong className="font-semibold">Real-time</strong> positions
+              <strong className="font-semibold">Realtime</strong> posities
             </span>
           </article>
         </Reveal>
@@ -256,9 +256,9 @@ function Features() {
         <Reveal delay={0.16} className="h-full">
           <article className="flex h-full min-h-[380px] flex-col justify-between rounded-[28px] bg-brand p-8 text-white">
             <div>
-              <p className="text-5xl font-medium tracking-tight">99.98%</p>
+              <p className="text-5xl font-medium tracking-tight">99,98%</p>
               <p className="mt-3 max-w-[220px] text-sm leading-relaxed text-white/75">
-                Nomination accuracy across every delivery day last year.
+                Nauwkeurige nominaties op elke leveringsdag van vorig jaar.
               </p>
             </div>
             <div className="flex h-36 items-end gap-2.5" aria-hidden>
@@ -324,8 +324,8 @@ function ImageTile({
 }
 
 const mix = [
-  { label: "Baseload", value: 45, color: "var(--color-brand)" },
-  { label: "Renewables", value: 30, color: "var(--color-sky)" },
+  { label: "Basislast", value: 45, color: "var(--color-brand)" },
+  { label: "Hernieuwbaar", value: 30, color: "var(--color-sky)" },
   { label: "Gas", value: 15, color: "var(--color-brand-ink)" },
   { label: "Spot", value: 10, color: "#dfe3ec" },
 ];
@@ -365,8 +365,8 @@ function Solutions() {
     >
       <Reveal>
         <h2 className="max-w-3xl text-4xl leading-[1.1] font-light tracking-[-0.03em] sm:text-5xl">
-          <Muted>Comprehensive</Muted> wholesale solutions{" "}
-          <Muted>for</Muted> licensed energy suppliers
+          <Muted>Complete</Muted> groothandelsoplossingen{" "}
+          <Muted>voor</Muted> vergunde energieleveranciers
         </h2>
       </Reveal>
 
@@ -374,38 +374,38 @@ function Solutions() {
         <Reveal className="lg:col-span-5">
           <ImageTile
             src="/images/engineers.jpg"
-            alt="Engineers reviewing a high-voltage substation"
-            tag="Sourcing"
-            title="Electricity & gas procurement"
+            alt="Ingenieurs inspecteren een hoogspanningsstation"
+            tag="Inkoop"
+            title="Aankoop van elektriciteit & gas"
           />
         </Reveal>
         <Reveal delay={0.08} className="lg:col-span-7">
           <ImageTile
             src="/images/offshore.jpg"
-            alt="Offshore wind farm in open sea"
-            tag="Renewables"
-            title="Green PPAs & Guarantees of Origin"
+            alt="Offshore windpark op open zee"
+            tag="Hernieuwbaar"
+            title="Groene PPA’s & garanties van oorsprong"
           />
         </Reveal>
         <Reveal className="lg:col-span-7">
           <ImageTile
             src="/images/solar.jpg"
-            alt="Solar park with battery storage"
-            tag="Flexibility"
-            title="Balancing, nominations & storage"
+            alt="Zonnepark met batterijopslag"
+            tag="Flexibiliteit"
+            title="Balancering, nominaties & opslag"
           />
         </Reveal>
         <Reveal delay={0.08} className="lg:col-span-5">
           <article className="flex h-full min-h-[340px] flex-col rounded-[28px] border border-line p-6">
             <div className="flex items-center justify-between">
-              <p className="text-sm font-medium">Typical portfolio mix</p>
-              <span className="text-xs text-muted">Last 12 months</span>
+              <p className="text-sm font-medium">Typische portefeuillemix</p>
+              <span className="text-xs text-muted">Laatste 12 maanden</span>
             </div>
             <div className="relative flex flex-1 items-center justify-center py-4">
               <Donut />
               <div className="absolute text-center">
-                <p className="text-3xl font-medium tracking-tight">1.8</p>
-                <p className="text-xs text-muted">TWh supplied</p>
+                <p className="text-3xl font-medium tracking-tight">1,8</p>
+                <p className="text-xs text-muted">TWh geleverd</p>
               </div>
             </div>
             <ul className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-xs text-muted">
@@ -439,15 +439,15 @@ function SupplyModels() {
       <div className="grid items-end gap-6 lg:grid-cols-2">
         <Reveal>
           <h2 className="text-4xl leading-[1.1] font-light tracking-[-0.03em] sm:text-5xl">
-            Transparent <Muted>supply</Muted>
+            Transparante <Muted>levering</Muted>
             <br />
-            <Muted>for</Muted> every book
+            <Muted>voor</Muted> elke portefeuille
           </h2>
         </Reveal>
         <Reveal delay={0.08}>
           <p className="max-w-sm text-[15px] leading-relaxed text-muted lg:justify-self-end">
-            Two clear contract structures, priced openly against the market —
-            no hidden margins, no surprise settlements.
+            Twee heldere contractvormen, open geprijsd tegenover de markt —
+            geen verborgen marges, geen verrassingen bij de afrekening.
           </p>
         </Reveal>
       </div>
@@ -455,26 +455,26 @@ function SupplyModels() {
       <div className="mt-14 grid gap-4 md:grid-cols-2">
         <Reveal className="h-full">
           <article className="flex h-full flex-col rounded-[28px] bg-brand p-8 text-white sm:p-10">
-            <p className="text-2xl font-medium text-sky">Fixed Supply</p>
+            <p className="text-2xl font-medium text-sky">Vaste levering</p>
             <p className="mt-1 text-sm text-white/60">
-              Most chosen by growing suppliers
+              Meest gekozen door groeiende leveranciers
             </p>
             <p className="mt-10 flex items-baseline gap-2">
-              <span className="text-6xl font-light tracking-tight">Fixed</span>
-              <span className="text-sm text-white/60">/ MWh, up to 5 years</span>
+              <span className="text-6xl font-light tracking-tight">Vast</span>
+              <span className="text-sm text-white/60">/ MWh, tot 5 jaar</span>
             </p>
             <Link
               href="#contact"
               className="mt-8 rounded-full bg-sky py-3.5 text-center text-sm font-medium text-brand-ink transition-colors hover:bg-white"
             >
-              Get a fixed quote
+              Vraag een vaste offerte aan
             </Link>
             <ul className="mt-8 space-y-3 border-t border-white/15 pt-8 text-sm text-white/85">
               {[
-                "Forward-hedged volumes on your load profile",
-                "Shape & balancing risk carried by Elexys",
-                "Monthly settlement, one consolidated invoice",
-                "Dedicated account trader",
+                "Vooraf ingedekte volumes op uw verbruiksprofiel",
+                "Profiel- en onevenwichtsrisico gedragen door Elexys",
+                "Maandelijkse afrekening, één geconsolideerde factuur",
+                "Toegewijde accounttrader",
               ].map((f) => (
                 <li key={f} className="flex gap-3">
                   <Check className="mt-0.5 size-4 shrink-0 text-sky" />
@@ -487,30 +487,30 @@ function SupplyModels() {
 
         <Reveal delay={0.08} className="h-full">
           <article className="flex h-full flex-col rounded-[28px] border border-line p-8 sm:p-10">
-            <p className="text-2xl font-medium text-ink">Indexed Supply</p>
+            <p className="text-2xl font-medium text-ink">Geïndexeerde levering</p>
             <p className="mt-1 text-sm text-subtle">
-              For experienced portfolio managers
+              Voor ervaren portefeuillebeheerders
             </p>
             <p className="mt-10 flex items-baseline gap-2">
               <span className="text-6xl font-light tracking-tight text-ink">
                 Spot+
               </span>
               <span className="text-sm text-muted">
-                / MWh, EPEX &amp; TTF linked
+                / MWh, gekoppeld aan EPEX &amp; TTF
               </span>
             </p>
             <Link
               href="#contact"
               className="mt-8 rounded-full bg-brand-ink py-3.5 text-center text-sm font-medium text-white transition-colors hover:bg-brand"
             >
-              Choose indexed
+              Kies geïndexeerd
             </Link>
             <ul className="mt-8 space-y-3 border-t border-line pt-8 text-sm text-muted">
               {[
-                "Click-and-fix tranches at your own timing",
-                "Full transparency on market index & fee",
-                "API access to positions and nominations",
-                "Optional green certificate bundling",
+                "Click-and-fix: leg tranches vast wanneer het u past",
+                "Volledige transparantie over marktindex en vergoeding",
+                "API-toegang tot posities en nominaties",
+                "Optioneel gebundeld met groenestroomcertificaten",
               ].map((f) => (
                 <li key={f} className="flex gap-3">
                   <Check className="mt-0.5 size-4 shrink-0 text-brand" />
@@ -532,20 +532,20 @@ function SupplyModels() {
 const pillars = [
   {
     n: 1,
-    title: "Direct market access",
-    body: "Membership on EPEX, ICE Endex and the Belgian balancing market, without the overhead of your own trading floor.",
+    title: "Rechtstreekse markttoegang",
+    body: "Lid van EPEX, ICE Endex en de Belgische balanceringsmarkt, zonder de kosten van een eigen tradingvloer.",
     icon: LineChart,
   },
   {
     n: 2,
-    title: "Speed of execution",
-    body: "Quotes within the hour and intraday adjustments handled by a desk that never sleeps.",
+    title: "Snelle uitvoering",
+    body: "Offertes binnen het uur en intraday-bijsturingen door een desk die nooit slaapt.",
     icon: Clock3,
   },
   {
     n: 3,
-    title: "Risk under control",
-    body: "Credit, volume and price risk structured so your margins stay predictable through any market cycle.",
+    title: "Risico onder controle",
+    body: "Krediet-, volume- en prijsrisico zo gestructureerd dat uw marges voorspelbaar blijven, in elke marktcyclus.",
     icon: ShieldCheck,
   },
 ];
@@ -557,12 +557,12 @@ function Pillars() {
         <div className="mx-auto max-w-[1240px]">
           <Reveal>
             <h2 className="mx-auto max-w-3xl text-center text-4xl leading-[1.1] font-light tracking-[-0.03em] sm:text-5xl">
-              Powering a <Muted>smarter</Muted> market with{" "}
-              <Muted>reliable</Muted> wholesale supply
+              Een <Muted>slimmere</Muted> markt, gedragen door{" "}
+              <Muted>betrouwbare</Muted> groothandelslevering
             </h2>
             <p className="mt-5 text-center text-[15px] text-muted">
-              Everything a supplier needs from the wholesale side — in one
-              partner.
+              Alles wat een leverancier nodig heeft aan de groothandelskant —
+              bij één partner.
             </p>
           </Reveal>
 
@@ -606,14 +606,14 @@ function Team() {
       <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
         <Reveal>
           <h2 className="text-4xl leading-[1.1] font-light tracking-[-0.03em] sm:text-5xl">
-            Meet the desk behind
+            Maak kennis met de desk
             <br />
-            <Muted>your supply</Muted>
+            <Muted>achter uw levering</Muted>
           </h2>
         </Reveal>
         <Reveal delay={0.08}>
           <PillButton href="#contact" variant="brand">
-            Meet our team
+            Leer ons team kennen
           </PillButton>
         </Reveal>
       </div>
@@ -621,25 +621,25 @@ function Team() {
       <div className="mt-14 grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
         <Reveal>
           <p className="max-w-md text-lg leading-relaxed text-ink">
-            Traders, analysts and grid specialists who have spent their careers
-            on the wholesale side of the Belgian energy market.
+            Traders, analisten en netspecialisten met een volledige loopbaan
+            aan de groothandelskant van de Belgische energiemarkt.
           </p>
           <h3 className="mt-10 text-sm font-medium tracking-[0.14em] text-subtle uppercase">
-            Why suppliers choose Elexys
+            Waarom leveranciers voor Elexys kiezen
           </h3>
           <ul className="mt-6 space-y-5">
             {[
               {
-                t: "Market experts",
-                d: "Decades of combined experience in power & gas trading.",
+                t: "Marktexperts",
+                d: "Decennia gecombineerde ervaring in stroom- en gastrading.",
               },
               {
-                t: "Built for suppliers",
-                d: "We never compete for your end customers — we only serve you.",
+                t: "Gebouwd voor leveranciers",
+                d: "We concurreren nooit om uw eindklanten — we werken enkel voor u.",
               },
               {
-                t: "Always reachable",
-                d: "A named account trader and a 24/7 balancing line.",
+                t: "Altijd bereikbaar",
+                d: "Een vaste accounttrader en een 24/7 balanceringslijn.",
               },
             ].map((item) => (
               <li key={item.t} className="flex gap-4">
@@ -658,7 +658,7 @@ function Team() {
           <div className="relative aspect-[4/3] overflow-hidden rounded-[28px]">
             <Image
               src="/images/team.jpg"
-              alt="The Elexys trading and operations team"
+              alt="Het trading- en operationsteam van Elexys"
               fill
               sizes="(min-width: 1024px) 50vw, 100vw"
               className="object-cover"
@@ -700,14 +700,15 @@ function Footer() {
                 className="h-20 w-auto sm:h-28"
               />
               <p className="mt-6 max-w-sm text-sm leading-relaxed text-white/65">
-                Wholesale electricity and gas for licensed energy suppliers.
-                Talk to our desk for a tailored supply proposal.
+                Groothandel in elektriciteit en gas voor vergunde
+                energieleveranciers. Contacteer onze desk voor een
+                leveringsvoorstel op maat.
               </p>
             </div>
             <div className="lg:pt-4">
-              <p className="text-lg font-medium">Request a supply quote</p>
+              <p className="text-lg font-medium">Vraag een leveringsofferte aan</p>
               <p className="mt-1 text-sm text-white/60">
-                Share your volumes — we reply within one business day.
+                Deel uw volumes — we antwoorden binnen één werkdag.
               </p>
               <QuoteForm />
             </div>
@@ -715,26 +716,26 @@ function Footer() {
 
           <div className="mt-16 flex flex-col gap-6 border-t border-white/15 pt-8 text-sm text-white/70 md:flex-row md:items-center md:justify-between">
             <nav className="flex flex-wrap gap-x-7 gap-y-2">
-              <Link href="#solutions" className="hover:text-white">Solutions</Link>
-              <Link href="#supply" className="hover:text-white">Supply models</Link>
+              <Link href="#solutions" className="hover:text-white">Oplossingen</Link>
+              <Link href="#supply" className="hover:text-white">Leveringsmodellen</Link>
               <Link href="#team" className="hover:text-white">Team</Link>
-              <Link href="#" className="hover:text-white">Careers</Link>
+              <Link href="#" className="hover:text-white">Vacatures</Link>
             </nav>
             <a href="mailto:desk@elexys.be" className="font-medium text-white">
               desk@elexys.be
             </a>
             <nav className="flex flex-wrap gap-x-7 gap-y-2">
-              <Link href="#" className="hover:text-white">Market data</Link>
-              <Link href="#" className="hover:text-white">Support</Link>
+              <Link href="#" className="hover:text-white">Marktdata</Link>
+              <Link href="#" className="hover:text-white">Ondersteuning</Link>
               <Link href="#contact" className="hover:text-white">Contact</Link>
             </nav>
           </div>
 
           <div className="mt-14 flex flex-col gap-3 text-xs text-white/45 sm:flex-row sm:justify-between">
-            <p>© {new Date().getFullYear()} Elexys. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Elexys. Alle rechten voorbehouden.</p>
             <div className="flex gap-6">
-              <Link href="#" className="hover:text-white">Terms &amp; Conditions</Link>
-              <Link href="#" className="hover:text-white">Privacy Policy</Link>
+              <Link href="#" className="hover:text-white">Algemene voorwaarden</Link>
+              <Link href="#" className="hover:text-white">Privacybeleid</Link>
             </div>
           </div>
         </div>

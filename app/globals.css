@@ -30,6 +30,16 @@ body {
   font-feature-settings: "ss01", "cv11";
 }
 
+/* Long Dutch compounds ("groothandelsoplossingen") overflow narrow screens */
+@media (max-width: 639px) {
+  h1,
+  h2,
+  h3 {
+    hyphens: auto;
+    overflow-wrap: break-word;
+  }
+}
+
 ::selection {
   background: var(--color-sky);
   color: var(--color-brand-ink);
