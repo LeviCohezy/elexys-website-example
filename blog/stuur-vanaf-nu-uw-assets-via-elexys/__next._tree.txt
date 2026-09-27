@@ -1,0 +1,4 @@
+:HL["/elexys-website-example/_next/static/chunks/09w4rzk8yvw3v.css","style"]
+:HL["/elexys-website-example/_next/static/media/ab57efd000576a30-s.p.3fofz6dws3mg0.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://www.elexys.be/sites/default/files/styles/img_696/public/blog/teaser/413_0.jpg?itok=0EXplmrO","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"blog","param":null,"prefetchHints":4160,"slots":{"children":{"name":"slug","param":{"type":"d","key":"stuur-vanaf-nu-uw-assets-via-elexys","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"3wBNW0F22VgYbTn_mgBI2"}
