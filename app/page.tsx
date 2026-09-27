@@ -13,6 +13,7 @@ import {
   Zap,
 } from "lucide-react";
 import { Nav } from "./components/nav";
+import { asset } from "./lib/asset";
 import { QuoteForm } from "./components/quote-form";
 import { Reveal } from "./components/reveal";
 import { Eyebrow, Muted, PillButton } from "./components/ui";
@@ -41,7 +42,7 @@ function Hero() {
     <section className="p-2 sm:p-3">
       <div className="relative isolate flex min-h-[640px] flex-col overflow-hidden rounded-[28px] sm:min-h-[760px] sm:rounded-[36px] lg:min-h-[min(calc(100svh-24px),920px)]">
         <Image
-          src="/images/hero.jpg"
+          src={asset("/images/hero.jpg")}
           alt="Hoogspanningslijnen door een open landschap onder een helderblauwe lucht"
           fill
           preload
@@ -90,7 +91,7 @@ function Hero() {
               <div className="flex items-center gap-4 rounded-3xl border border-white/25 bg-white/10 p-2 pr-8 backdrop-blur-xl">
                 <div className="relative h-24 w-36 overflow-hidden rounded-2xl">
                   <Image
-                    src="/images/offshore.jpg"
+                    src={asset("/images/offshore.jpg")}
                     alt=""
                     fill
                     sizes="144px"
@@ -116,7 +117,7 @@ function Hero() {
               <div className="flex items-center gap-4 rounded-3xl bg-white p-2 pr-7 shadow-2xl shadow-brand-ink/25">
                 <div className="relative h-24 w-32 overflow-hidden rounded-2xl">
                   <Image
-                    src="/images/trading.jpg"
+                    src={asset("/images/trading.jpg")}
                     alt=""
                     fill
                     sizes="128px"
@@ -229,7 +230,7 @@ function Features() {
         <Reveal delay={0.08} className="h-full">
           <article className="relative isolate flex h-full min-h-[380px] flex-col justify-between overflow-hidden rounded-[28px] p-8 text-white">
             <Image
-              src="/images/trading.jpg"
+              src={asset("/images/trading.jpg")}
               alt="Energietraders volgen prijscurves op"
               fill
               sizes="(min-width: 768px) 33vw, 100vw"
@@ -373,7 +374,7 @@ function Solutions() {
       <div className="mt-14 grid gap-4 lg:grid-cols-12">
         <Reveal className="lg:col-span-5">
           <ImageTile
-            src="/images/engineers.jpg"
+            src={asset("/images/engineers.jpg")}
             alt="Ingenieurs inspecteren een hoogspanningsstation"
             tag="Inkoop"
             title="Aankoop van elektriciteit & gas"
@@ -381,7 +382,7 @@ function Solutions() {
         </Reveal>
         <Reveal delay={0.08} className="lg:col-span-7">
           <ImageTile
-            src="/images/offshore.jpg"
+            src={asset("/images/offshore.jpg")}
             alt="Offshore windpark op open zee"
             tag="Hernieuwbaar"
             title="Groene PPA’s & garanties van oorsprong"
@@ -389,7 +390,7 @@ function Solutions() {
         </Reveal>
         <Reveal className="lg:col-span-7">
           <ImageTile
-            src="/images/solar.jpg"
+            src={asset("/images/solar.jpg")}
             alt="Zonnepark met batterijopslag"
             tag="Flexibiliteit"
             title="Balancering, nominaties & opslag"
@@ -657,7 +658,7 @@ function Team() {
         <Reveal delay={0.1}>
           <div className="relative aspect-[4/3] overflow-hidden rounded-[28px]">
             <Image
-              src="/images/team.jpg"
+              src={asset("/images/team.jpg")}
               alt="Het trading- en operationsteam van Elexys"
               fill
               sizes="(min-width: 1024px) 50vw, 100vw"
@@ -693,7 +694,7 @@ function Footer() {
           <div className="grid gap-12 lg:grid-cols-[1.3fr_1fr]">
             <div>
               <Image
-                src="/brand/elexys-logo-white.png"
+                src={asset("/brand/elexys-logo-white.png")}
                 alt="Elexys — Think smart energy"
                 width={390}
                 height={144}

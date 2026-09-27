@@ -13,6 +13,8 @@ const description =
   "Elexys koopt, balanceert en levert elektriciteit en gas aan vergunde energieleveranciers in België en de Benelux.";
 
 export const metadata: Metadata = {
+  // Absolute base for the share-image URL; SITE_URL is set in CI.
+  metadataBase: new URL(process.env.SITE_URL ?? "http://localhost:3000"),
   title,
   description,
   openGraph: {

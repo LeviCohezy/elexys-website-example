@@ -9,6 +9,7 @@ import {
   type SetStateAction,
 } from "react";
 import { Menu, X } from "lucide-react";
+import { asset } from "../lib/asset";
 
 const links = [
   { label: "Home", href: "#" },
@@ -50,7 +51,7 @@ function StickyBar({ visible }: { visible: boolean }) {
       <nav className="mx-auto flex max-w-[1240px] items-center justify-between rounded-full border border-line bg-white/85 py-2 pr-2 pl-5 shadow-lg shadow-brand-ink/5 backdrop-blur-xl">
         <Link href="#" aria-label="Elexys startpagina" className="shrink-0">
           <Image
-            src="/brand/elexys-logo.png"
+            src={asset("/brand/elexys-logo.png")}
             alt="Elexys"
             width={390}
             height={144}
@@ -92,7 +93,7 @@ function HeroBar({
       <nav className="mx-auto flex max-w-[1240px] items-center justify-between rounded-full border border-white/20 bg-white/10 py-2 pr-2 pl-5 backdrop-blur-xl">
         <Link href="#" aria-label="Elexys startpagina" className="shrink-0">
           <Image
-            src="/brand/elexys-logo-white.png"
+            src={asset("/brand/elexys-logo-white.png")}
             alt="Elexys"
             width={390}
             height={144}
