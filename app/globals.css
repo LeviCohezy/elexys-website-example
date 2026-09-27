@@ -40,6 +40,98 @@ body {
   }
 }
 
+/* Long-form content rendered from the scraped Markdown */
+.prose-elexys {
+  color: var(--color-muted);
+  font-size: 1.0625rem;
+  line-height: 1.75;
+}
+.prose-elexys > * + * {
+  margin-top: 1.1em;
+}
+.prose-elexys :is(h1, h2, h3, h4) {
+  color: var(--color-ink);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+.prose-elexys h1,
+.prose-elexys h2 {
+  margin-top: 2.2em;
+  font-size: 1.75rem;
+}
+.prose-elexys h3 {
+  margin-top: 1.8em;
+  font-size: 1.3rem;
+}
+.prose-elexys h4 {
+  margin-top: 1.6em;
+  font-size: 1.1rem;
+}
+.prose-elexys > :first-child {
+  margin-top: 0;
+}
+.prose-elexys strong {
+  color: var(--color-ink);
+  font-weight: 600;
+}
+.prose-elexys a {
+  color: var(--color-brand);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--color-brand) 30%, transparent);
+  text-underline-offset: 4px;
+  overflow-wrap: anywhere;
+}
+.prose-elexys a:hover {
+  text-decoration-color: var(--color-brand);
+}
+.prose-elexys :is(ul, ol) {
+  padding-left: 1.3em;
+}
+.prose-elexys ul {
+  list-style: disc;
+}
+.prose-elexys ol {
+  list-style: decimal;
+}
+.prose-elexys li + li {
+  margin-top: 0.4em;
+}
+.prose-elexys li::marker {
+  color: var(--color-sky);
+}
+.prose-elexys img {
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
+}
+.prose-elexys blockquote {
+  border-left: 3px solid var(--color-sky);
+  padding-left: 1.2em;
+  color: var(--color-ink);
+  font-style: italic;
+}
+.prose-elexys hr {
+  border-color: var(--color-line);
+}
+.prose-elexys table {
+  display: block;
+  overflow-x: auto;
+  width: 100%;
+  font-size: 0.9rem;
+  border-collapse: collapse;
+}
+.prose-elexys :is(th, td) {
+  border-bottom: 1px solid var(--color-line);
+  padding: 0.6em 0.9em;
+  text-align: left;
+  white-space: nowrap;
+}
+.prose-elexys th {
+  color: var(--color-ink);
+  font-weight: 500;
+}
+
 ::selection {
   background: var(--color-sky);
   color: var(--color-brand-ink);

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter_Tight } from "next/font/google";
+import { Footer } from "./components/footer";
 import "./globals.css";
 
 const interTight = Inter_Tight({
@@ -8,14 +9,15 @@ const interTight = Inter_Tight({
   weight: ["300", "400", "500", "600"],
 });
 
-const title = "Elexys — Groothandel in energie voor energieleveranciers";
+// From the elexys.be homepage <title> and meta description.
+const title = "Elektriciteit en aardgas voor bedrijven | Elexys";
 const description =
-  "Elexys koopt, balanceert en levert elektriciteit en gas aan vergunde energieleveranciers in België en de Benelux.";
+  "Energieleverancier voor bedrijven. Elexys levert elektriciteit en aardgas en ondersteunt ondernemingen met strategisch energiebeheer en energie-optimalisatie.";
 
 export const metadata: Metadata = {
-  // Absolute base for the share-image URL; SITE_URL is set in CI.
+  // Absolute base for the share-image URL; SITE_URL is set by scripts/deploy-pages.sh.
   metadataBase: new URL(process.env.SITE_URL ?? "http://localhost:3000"),
-  title,
+  title: { default: title, template: "%s | Elexys" },
   description,
   openGraph: {
     title,
@@ -30,7 +32,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="nl-BE" className={`${interTight.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <div className="flex-1">{children}</div>
+        <Footer />
+      </body>
     </html>
   );
 }
