@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { ArrowUpRight, Quote } from "lucide-react";
+import { GraduationCap, Headset, Home, MessagesSquare, Phone, Quote, Shuffle } from "lucide-react";
 import { CtaBand } from "../components/cta-band";
+import { GroupNetwork } from "../components/group-network";
 import { PageHero } from "../components/page-hero";
 import { Reveal } from "../components/reveal";
 import { Eyebrow, Muted, PillButton } from "../components/ui";
@@ -20,26 +21,44 @@ const stats = [
   { value: "22", label: "Laadpalen voor wie elektrisch op bezoek komt" },
 ];
 
-const group = [
+/** The four "Altijd tot uw dienst" strengths from the elexys.be homepage. */
+const strengths = [
   {
-    floor: "3e verdieping",
-    name: "Elexys",
-    body: "Onze thuisbasis. Energieleverancier voor bedrijven, van kmo tot grootverbruiker.",
-    href: null,
+    icon: Home,
+    title: "Onafhankelijk familiebedrijf",
+    body: "Op en top Belgisch. Dat laat ons toe onafhankelijk met u mee te denken en wendbaar te zijn.",
   },
   {
-    floor: "2e verdieping",
-    name: "Cogenius",
-    body: "Ontwikkelt IT-oplossingen voor bedrijven en organisaties die actief zijn in de energiemarkt.",
-    href: "https://www.cogenius.be/",
+    icon: GraduationCap,
+    title: "Expertise op elk vlak",
+    body: "Een ambitieus team dat u met kennis van zaken begeleidt, en een uitgebreid partnernetwerk.",
   },
   {
-    floor: "2e verdieping",
-    name: "European Commodities",
-    body: "Biedt energieleveranciers en grote industriële bedrijven toegang tot de Europese energiemarkt, als BRP en trader.",
-    href: "https://www.europeancommodities.eu/",
+    icon: MessagesSquare,
+    title: "Persoonlijk contact",
+    body: "We ontmoeten u graag persoonlijk. Na elke online aanvraag bellen we binnen de 24u.",
+  },
+  {
+    icon: Shuffle,
+    title: "Flexibele oplossingen",
+    body: "Niet gebonden aan één pasklare oplossing: verandert uw bedrijf, dan passen wij ons aan.",
   },
 ];
+
+function Strength({ f, delay }: { f: (typeof strengths)[number]; delay: number }) {
+  return (
+    <Reveal delay={delay} className="h-full">
+      <article className="flex h-full min-h-[172px] flex-col justify-between rounded-[24px] bg-white/[0.06] p-6 ring-1 ring-white/10">
+        <span className="grid size-10 place-items-center rounded-xl bg-white text-brand">
+          <f.icon className="size-5" />
+        </span>
+        <p className="mt-8 text-sm leading-relaxed text-white/65">
+          <strong className="font-medium text-white">{f.title}.</strong> {f.body}
+        </p>
+      </article>
+    </Reveal>
+  );
+}
 
 export default function AboutPage() {
   return (
@@ -103,6 +122,58 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Advisora-style dark block: four strengths around a photo */}
+      <section className="px-2 py-10 sm:px-3">
+        <div className="mx-auto max-w-[1400px] rounded-[36px] bg-brand-ink px-6 py-20 text-white sm:px-10 sm:py-24">
+          <div className="mx-auto max-w-[1240px]">
+            <Reveal>
+              <h2 className="mx-auto max-w-2xl text-center text-4xl leading-[1.1] font-light tracking-[-0.03em] sm:text-5xl">
+                Altijd tot uw dienst, <span className="text-sky">op elk vlak</span>
+              </h2>
+              <p className="mx-auto mt-5 max-w-xl text-center text-[15px] leading-relaxed text-white/65">
+                Met anticipatie en een transparante prijszetting maken we het verschil in een constant
+                bewegende markt.
+              </p>
+            </Reveal>
+            <div className="mt-14 grid gap-4 md:grid-cols-2 lg:grid-cols-[1fr_1.1fr_1fr]">
+              <div className="grid gap-4">
+                {strengths.slice(0, 2).map((f, i) => (
+                  <Strength key={f.title} f={f} delay={i * 0.06} />
+                ))}
+              </div>
+              <Reveal delay={0.1} className="md:col-span-2 md:row-start-1 lg:col-span-1 lg:col-start-2">
+                <div className="relative h-full min-h-[360px] overflow-hidden rounded-[24px]">
+                  <Image
+                    src={asset("/images/contact.jpg")}
+                    alt="Accountmanager van Elexys in gesprek met een klant"
+                    fill
+                    sizes="(min-width: 1024px) 35vw, 100vw"
+                    className="object-cover"
+                  />
+                  <span className="absolute top-5 left-5 flex items-center gap-2 rounded-full bg-white py-1.5 pr-3 pl-1.5 text-xs font-medium text-ink shadow-lg">
+                    <span className="grid size-6 place-items-center rounded-full bg-brand text-white">
+                      <Headset className="size-3.5" />
+                    </span>
+                    Vaste accountmanager
+                  </span>
+                  <span className="absolute right-5 bottom-5 flex items-center gap-2 rounded-full bg-white py-1.5 pr-3 pl-1.5 text-xs font-medium text-ink shadow-lg">
+                    <span className="grid size-6 place-items-center rounded-full bg-sky text-brand-ink">
+                      <Phone className="size-3.5" />
+                    </span>
+                    Binnen 24u contact
+                  </span>
+                </div>
+              </Reveal>
+              <div className="grid gap-4">
+                {strengths.slice(2).map((f, i) => (
+                  <Strength key={f.title} f={f} delay={0.12 + i * 0.06} />
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Founder quote */}
       <section className="mx-auto max-w-[1240px] px-6 py-24 sm:px-10">
         <div className="grid items-center gap-10 lg:grid-cols-[0.9fr_1.1fr]">
@@ -136,7 +207,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Group companies: numbered rows (G Energy service list) */}
+      {/* Group companies: floating cards joined by a dotted loop */}
       <section className="px-2 py-10 sm:px-3">
         <div className="mx-auto max-w-[1400px] rounded-[36px] bg-surface px-6 py-20 sm:px-10 sm:py-24">
           <div className="mx-auto max-w-[1240px]">
@@ -157,37 +228,9 @@ export default function AboutPage() {
               </Reveal>
             </div>
 
-            <ul className="mt-14 border-t border-line">
-              {group.map((g, i) => (
-                <Reveal key={g.name} delay={i * 0.06}>
-                  <li className="grid gap-3 border-b border-line py-8 sm:grid-cols-[80px_180px_1fr_auto] sm:items-center sm:gap-6">
-                    <span className="text-sm text-subtle">0{i + 1}</span>
-                    <span className="text-xs tracking-[0.14em] text-muted uppercase">{g.floor}</span>
-                    <div>
-                      <p className={`text-2xl tracking-tight ${g.name === "Elexys" ? "font-medium text-brand" : "font-light text-ink"}`}>
-                        {g.name}
-                      </p>
-                      <p className="mt-1 max-w-xl text-sm leading-relaxed text-muted">{g.body}</p>
-                    </div>
-                    {g.href ? (
-                      <a
-                        href={g.href}
-                        target="_blank"
-                        rel="noopener"
-                        aria-label={`Website van ${g.name}`}
-                        className="grid size-11 place-items-center rounded-full bg-white text-brand transition-colors hover:bg-brand hover:text-white"
-                      >
-                        <ArrowUpRight className="size-4" />
-                      </a>
-                    ) : (
-                      <span className="rounded-full bg-sky px-3 py-1 text-xs font-medium text-brand-ink">
-                        Thuisbasis
-                      </span>
-                    )}
-                  </li>
-                </Reveal>
-              ))}
-            </ul>
+            <Reveal delay={0.1} className="mt-14">
+              <GroupNetwork />
+            </Reveal>
           </div>
         </div>
       </section>

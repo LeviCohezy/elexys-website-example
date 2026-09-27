@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Flame, Sun, Zap } from "lucide-react";
+import Image from "next/image";
+import { ArrowUpRight, Flame, Sun, Zap } from "lucide-react";
 import { CtaBand } from "../components/cta-band";
 import { PageHero } from "../components/page-hero";
 import { ProductCard } from "../components/product-card";
 import { ProductFinder } from "../components/product-finder";
 import { Reveal } from "../components/reveal";
 import { Eyebrow, PillButton } from "../components/ui";
+import { asset } from "../lib/asset";
 import { energyLabels, products, type Energy } from "../lib/products";
 
 export const metadata: Metadata = {
@@ -30,6 +32,25 @@ const groups: { id: Energy; icon: typeof Zap; intro: string }[] = [
     id: "injectie",
     icon: Sun,
     intro: "Een eerlijke prijs voor de stroom die uw zonnepanelen, windmolen of WKK op het net zetten.",
+  },
+];
+
+/** Price formulas, condensed from the elexys.be FAQ. */
+const formulas = [
+  {
+    title: "Vaste prijs",
+    body: "U weet vooraf wat u betaalt, voor de hele duur van uw contract.",
+    products: "FIX · GASFIX",
+  },
+  {
+    title: "Via clicks",
+    body: "Leg uw prijs gespreid vast op de forwardmarkt en vang schommelingen op.",
+    products: "CLICKX · SAFE · SAFE-X · BELCLICKX",
+  },
+  {
+    title: "Variabel",
+    body: "Uw prijs volgt maandelijks de spotmarkt, met optie op een hedge of omzetting.",
+    products: "BELIX · BELEX · GASFLEX",
   },
 ];
 
@@ -65,6 +86,54 @@ export default function SolutionsPage() {
           </div>
         }
       />
+
+      {/* Mon Petit Placement-style photo band with three white option cards */}
+      <section className="px-2 pt-10 sm:px-3">
+        <div className="relative isolate mx-auto max-w-[1400px] overflow-hidden rounded-[36px] px-6 py-16 sm:px-10 sm:py-20">
+          <Image
+            src={asset("/images/rooftop-solar.jpg")}
+            alt=""
+            fill
+            sizes="100vw"
+            className="-z-20 object-cover"
+          />
+          <div className="absolute inset-0 -z-10 bg-gradient-to-b from-brand-ink/70 via-brand-ink/35 to-brand-ink/60" />
+          <div className="mx-auto max-w-[1240px]">
+            <Reveal>
+              <h2 className="mx-auto max-w-2xl text-center text-4xl leading-[1.1] font-light tracking-[-0.03em] text-white sm:text-5xl">
+                Een slimme strategie <span className="text-sky">begint bij uw prijsformule</span>
+              </h2>
+              <p className="mx-auto mt-4 max-w-xl text-center text-[15px] text-white/75">
+                Kies zekerheid, spreid uw aankoop of volg de markt. Of combineer ze.
+              </p>
+            </Reveal>
+            <div className="mt-12 grid items-end gap-4 md:grid-cols-3">
+              {formulas.map((f, i) => (
+                <Reveal key={f.title} delay={i * 0.08}>
+                  <article
+                    className={`flex flex-col rounded-[28px] bg-white p-7 shadow-2xl shadow-brand-ink/30 ${
+                      ["md:min-h-[240px]", "md:min-h-[280px]", "md:min-h-[320px]"][i]
+                    }`}
+                  >
+                    <h3 className="text-3xl font-medium tracking-tight text-ink">{f.title}</h3>
+                    <p className="mt-2 text-sm text-muted">{f.body}</p>
+                    <p className="mt-4 text-xs font-medium tracking-wide text-brand">{f.products}</p>
+                    <Link
+                      href="#elektriciteit"
+                      className="mt-auto inline-flex items-center gap-2 self-start rounded-full bg-brand-ink py-1.5 pr-1.5 pl-4 text-sm font-medium text-white transition-colors hover:bg-brand"
+                    >
+                      Ontdek
+                      <span className="grid size-7 place-items-center rounded-full bg-sky text-brand-ink">
+                        <ArrowUpRight className="size-3.5" />
+                      </span>
+                    </Link>
+                  </article>
+                </Reveal>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Product finder on a dark panel (Creaenergy-style services block) */}
       <section className="px-2 py-10 sm:px-3">

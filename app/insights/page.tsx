@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowUpRight, Flame, Mail, Zap } from "lucide-react";
 import { CtaBand } from "../components/cta-band";
+import { InsightsBento } from "../components/insights-bento";
 import { PageHero } from "../components/page-hero";
 import { chartFromTable } from "../components/price-chart";
 import { Reveal } from "../components/reveal";
@@ -47,6 +48,8 @@ export default function InsightsPage() {
         imageAlt="Energietraders volgen prijscurves op"
         crumbs={[{ label: "Insights" }]}
       />
+
+      <InsightsBento />
 
       {groups.map((g) => (
         <section key={g.name} className="mx-auto max-w-[1240px] px-6 py-16 sm:px-10 sm:py-20">
