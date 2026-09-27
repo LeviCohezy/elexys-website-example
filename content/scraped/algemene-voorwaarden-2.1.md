@@ -1,0 +1,309 @@
+---
+url: https://www.elexys.be/algemene-voorwaarden-2.1
+title: "Algemene voorwaarden v2.1 NL | Elexys"
+description: ""
+h1: "Algemene voorwaarden v2.1 NL"
+scraped: 2026-09-27
+notes: ["legal page", "not in sitemap.xml (found via links)"]
+---
+
+<!-- Source: https://www.elexys.be/algemene-voorwaarden-2.1 -->
+
+# Algemene voorwaarden v2.1 NL
+
+ALGEMENE VOORWAARDEN VOOR DE LEVERING EN/OF TERUGKOOP VAN ELEKTRICITEIT EN/OF AARDGAS (ELEXYS NV)
+
+**Artikel 1. BEGRIPPEN**
+
+Voor zover er in deze Algemene Voorwaarden niet uitdrukkelijk van wordt afgeweken, hebben de begrippen in de Overeenkomst een identieke betekenis als deze gedefinieerd in de regelgeving en technische reglementen en haar uitvoeringsbesluiten die van toepassing zijn in het Gewest waar de levering gebeurt, en het Technisch Reglement voor het beheer van het transmissienet van elektriciteit en /of gas en de toegang ertoe. In deze Algemene Voorwaarden en in de Overeenkomst wordt verstaan onder:
+
+**Aansluitingscontract**: de overeenkomst of het reglement afgesloten tussen de Netbeheerder en een netgebruiker dat de wederzijdse rechten en verplichtingen aangaande een bepaalde aansluiting bepaalt, daarin begrepen de relevante technische bepalingen.
+
+**Algemene Voorwaarden**: huidige begrippen en voorwaarden, dewelke integraal deel uitmaken van de Overeenkomst.
+
+**Afnamepunt**: het fysieke punt waar elektriciteit of aardgas door de Klant kan worden afgenomen uit het net. Het (de) Afnamepunt(en) word(t)(en) in de Overeenkomst geïdentificeerd door een aansluitingsadres en/of een unieke code (European Article Number (EAN) / Global Location Number (GLN)).
+
+**Evenwichtsverantwoordelijke**: de toegangsverantwoordelijke of evenwichtsverantwoordelijke, zoals gedefinieerd in het toepasselijke technisch reglement, die verantwoordelijk is voor het evenwicht, gemeten op kilowattuur basis, voor het geheel van de aan hem toegewezen afnames en injecties van elektriciteit binnen de Belgische regelzone.
+
+**Injectiepunt**: het fysieke punt waar elektriciteit door de Klant kan worden geïnjecteerd in het net. Het (de) Injectiepunt(en) word(t)(en) in de Overeenkomst geïdentificeerd door een aansluitingsadres en/of een unieke code  (European Article Number (EAN) / GLN (Global Location Number)).
+
+**Klant**: de natuurlijke perso(o)n(en) en/of rechtsperso(o)n(en) die in hoedanigheid van netgebruiker een Aansluitingscontract met een Belgische Netbeheerder heeft aangesloten, en die een Overeenkomst aangaan of wensen aan te gaan met de Leverancier.
+
+**Leverancier**: Elexys NV, met maatschappelijke zetel te 8540 Deerlijk, Kleine Tapuitstraat 18, ingeschreven bij de Kruispuntbank van Ondernemingen onder het nummer 0824.304.218, of elke hiermee verbonden onderneming die houder is van een leveringsvergunning voor elektriciteit en/of aardgas.
+
+**Levering**: de injectie van elektriciteit of van aardgas op het net met het oog op de afname van de overeengekomen hoeveelheid elektriciteit en/of aardgas door de Klant.
+
+**Netwerk of net**: de in België gelegen distributienetwerken voor elektriciteit en/of aardgas en het transmissie- en vervoersnetwerk.
+
+**Netbeheerder**: de beheerder(s) van het nationaal, regionaal of lokaal net voor de transmissie en/of distributie van elektriciteit en/of aardgas.
+
+**Normale Uren**: de normale uren (ook piekuren of peak uren genoemd) zoals bepaald door de desbetreffende Netbeheerder van het (de) Afname- of Injectiepunt(en).
+
+**Overeenkomst**: de gehele geschreven overeenkomst gesloten tussen de partijen aangaande de levering en/of terugkoop van elektriciteit en/of aardgas, zijnde de bijzondere voorwaarden, deze Algemene Voorwaarden, en eventuele bijlagen van de bijzondere voorwaarden en deze Algemene Voorwaarden.
+
+**Site(s)**: de site(s) zoals vermeld in de Overeenkomst.
+
+**Stille Uren**: de stille uren (ook daluren of off-peak uren genoemd) zoals bepaald door de desbetreffende Netbeheerder van het (de) Afname- of Injectiepunt(en).
+
+**Strategische Reserve**: het mechanisme zoals voorzien in Hoofdstuk II bis van de wet van 29 april 1999 betreffende de organisatie van de elektriciteitsmarkt, zoals uitgevoerd door de Werkingsregels van Elia voor de strategische reserve.
+
+**Technisch Reglemen**t: één of alle technische reglementen aangaande (toegang tot) het transmissienet, het vervoersnet en/of de distributienetwerken voor elektriciteit en/of gas in het Vlaams, Waals en Brussels Hoofdstedelijk Gewest.
+
+**Terugkoop**: de transactie waarbij de Leverancier de door de Klant geproduceerde en op het net geïnjecteerde elektriciteit afneemt.
+
+**Toegangscontract**: het contract of reglement tussen toegangshouder en netbeheerder dat de toegang tot het elektriciteits- of aardgasnet regelt. 
+
+**Artikel 2. TOEPASSELIJKHEID**
+
+De Algemene Voorwaarden van de Leverancier zijn van toepassing op alle offertes en Overeenkomsten tussen de Klant en de Leverancier (waar zij dan ook integraal deel van uitmaken).
+
+Mondelinge toezeggingen binden de Leverancier niet, behoudens nadat de Leverancier deze schriftelijk bevestigd heeft.
+
+**Artikel 3. VERBINTENISSEN VAN DE KLANT**
+
+**3.1  Aansluitingscontract**
+
+De Klant zal voor de start van de levering of terugkoop (een) Aansluitingscontract(en) aangaan met de Netbeheerder, waarbij de Aansluitingscontract(en) niet geschorst, opgezegd, beëindigd of ontbonden zal (zullen) worden zolang de Overeenkomst tussen de Leverancier en de Klant niet is beëindigd.
+
+De Klant zal desgevraagd een afschrift van het (de) Aansluitingscontract(en) aan de Leverancier voorleggen.
+
+De Klant draagt zorg voor de naleving van alle voorwaarden en bepalingen van het (de) Aansluitingscontract(en) en verbindt zich ertoe, gedurende de volledige looptijd van de Overeenkomst, over een elektrische installatie te beschikken die voldoet aan alle relevante wettelijke en reglementaire bepalingen.
+
+**3.2  Afname/terugkoop van elektriciteit en/of aardgas**
+
+De Klant verbindt er zich toe elektriciteit en/of aardgas van de Leverancier af te nemen en/of terug te kopen op  het (de) Afname-/Injectie punt(en) vermeld in de Overeenkomst.
+
+De Klant verbindt er zich toe om de Leverancier aan te duiden als zijn leverancier van elektriciteit en/of aardgas ten aanzien van de Netbeheerder(s).
+
+De Klant is ervoor verantwoordelijk dat de Overeenkomst op de overeengekomen datum kan aanvangen en vrijwaart de Leverancier tegen alle eventuele vorderingen of vertragingen van de vorige leverancier.
+
+**3.3  Informatie omtrent wijziging van de afname van elektriciteit en aardgas**
+
+De Klant zal de Leverancier onverwijld en uiterlijk binnen de 2 dagen kosteloos de nodige informatie verstrekken omtrent alle gebeurtenissen die een invloed hebben op of van belang zijn voor: (i) de afname van elektriciteit en/of aardgas of (ii) het injectieprofiel van de Klant, zoals doch niet beperkt tot:
+
+- door de Klant vastgestelde gebreken, schade en onregelmatigheden aan de meetinrichting;
+- door de Klant voorziene afwijkingen van het jaarverbruik en/of verbruiks- en injectieprofiel zoals bepaald in de Overeenkomst;
+- elke (on)geplande wijziging in de bedrijfsvoering die een significante impact kan hebben op het afname- of injectieprofiel zoals bepaald in de Overeenkomst. Onder “geplande wijzigingen in de bedrijfsvoering” wordt onder meer verstaan: wijzigingen in de bedrijfsvoering ten gevolge van onderhoud en significante wijzigingen in de productie. Onder “ongeplande wijzigingen in de bedrijfsvoering” wordt onder meer verstaan: wijzigingen in de bedrijfsvoering ten gevolge van storingen en calamiteiten;
+- alle relevante gegevens of wijzigingen van de aansluitingen opgenomen in de Overeenkomst;
+- alle andere voor de Leverancier relevante informatie.
+
+Indien de Klant de benodigde informatie niet, niet volledig, niet correct of niet tijdig, aan de Leverancier aanlevert, zal de Leverancier de evenwichtsverantwoordelijkheid zo goed als mogelijk en indien nodig op basis van schattingen uitvoeren. De Leverancier is gerechtigd om in dat geval de eventuele onbalans die voortvloeit uit een onjuiste schatting als gevolg van het ontbreken van de benodigde gegevens, dan wel als gevolg van onjuiste gegevens, door te rekenen aan Klant. Tevens zijn de daarmee gepaard gaande kosten  ten laste van de Klant.
+
+De Klant zal geen overeenkomsten voor onderbreekbaarheid of valorisatie van energieflexibiliteit afsluiten met de Netbeheerder of eender welke andere partij zonder daartoe de vereiste voorafgaandelijke goedkeuring te hebben verkregen van de Leverancier.
+
+De Klant zal zonder voorafgaandelijke goedkeuring van de Leverancier evenmin nieuwe of bijkomende installaties voor de productie van energie in dienst nemen tijdens de duurtijd van de Overeenkomst.
+
+**3.4  Informatie omtrent sluiting van Site(s)**
+
+In geval van een gedeeltelijke of volledige sluiting van (een) Site(s), of een gedeeltelijke of volledige overdracht van het vruchtgebruik / de volle eigendom van (een) Site(s), zullen de Leverancier en de Klant in gezamenlijk overleg bepalen welke aanpassingen er aan de Overeenkomst moeten gemaakt worden, onder meer met betrekking tot de overdracht van de Overeenkomst aan een eventuele overnemer/rechtverkrijgende evenals met betrekking tot de gebruiksvoorwaarden en de prijs.
+
+In het geval dat de Overeenkomst beëindigd wordt ten gevolge van de overdracht of sluiting van (een) Site(s) door de Klant, zal deze aan de Leverancier een vergoeding verschuldigd zijn ten belope van alle kosten opgelopen door de Leverancier met betrekking tot de in het kader van de capaciteitsboeking voor de Klant gedane beleggingen onder de Overeenkomst en/of het afwikkelen van de posities (die het werkelijke verbruik van de Klant kunnen overschrijden).
+
+**Artikel 4: VERBINTENISSEN VAN DE LEVERANCIER**
+
+**4.1  Levering en afname**
+
+De Leverancier is verantwoordelijk voor de levering en/of afname van elektriciteit en/of aardgas op het (de) Afnamepunt(en) en/of Injectiepunt(en) opgenomen in de Overeenkomst en dit vanaf het ogenblik dat de Leverancier in het toegangsregister van de bevoegde Netbeheerder(s) is geregistreerd.
+
+**4.2  Evenwichtsverantwoordelijkheid**
+
+De Leverancier zal, tenzij anders overeengekomen, optreden als Evenwichtsverantwoordelijke voor het (de) Afnamepunt(en) en/of Injectiepunt(en) opgenomen in de Overeenkomst, dan wel deze laten vervullen door een door haar aangeduide derde. 
+
+**Artikel 5: PRIJSBEPALINGEN, KOSTEN EN TOESLAGEN**
+
+De prijzen vermeld in de Overeenkomst zijn exclusief BTW, de geldende nettarieven en de toeslagen (hierna samen de “Toeslagen” genoemd). Toeslagen worden bepaald door de verantwoordelijke Netbeheerder, overheid, reguleringsinstantie of andere derde partij en omvatten alle vormen van accijnzen, belastingen, heffingen, retributies, vergoedingen, bijdragen, verplichtingen en eventuele andere lasten en kosten die worden opgelegd en/of aangerekend door  (een van) voormelde instantie(s). Ze kunnen bijv. betrekking hebben op injectie, transmissie, distributie, transport, aansluiting, toegang, levering, afname, kostenverhoging, onvoorziene bijkomende onbalanskosten, evenwichtsverantwoordelijkheid en/of meting van elektriciteit of aardgas.
+
+De Toeslagen zijn steeds ten laste van de Klant en zullen indien mogelijk afzonderlijk in de factu(u)r(en) geïdentificeerd worden. Hetzelfde geldt voor nieuwe (componenten van) Toeslagen die worden opgelegd na datum van de Overeenkomst en die de Leverancier bijkomend aan de Klant zal factureren vanaf het ogenblik waarop ze worden ingevoerd. Elke wijziging in de Toeslagen zal transparant aangerekend worden aan de Klant. De Leverancier behoudt zich het recht voor om (wijzigingen van) de Toeslagen retroactief recht te zetten. (Wijzigingen in de) Toeslagen kunnen nooit een rechtsgeldige grond voor beëindiging van de Overeenkomst vormen.
+
+Indien de verantwoordelijke Netbeheerder en/of een reguleringsinstantie het onbalansregime en/of de daarbij behorende berekeningswijze van de onevenwichtsprijzen en/of de parameters die ten grondslag liggen aan de berekeningswijze op eender welke manier wijzigt, is de Leverancier gerechtigd om de hieruit voortvloeiende bijkomende kosten inzake evenwichtsverantwoordelijkheid door te rekenen aan de Klant. Prijswijzigingen ten gevolge van hierboven vermelde reden kunnen nooit een grond voor beëindiging van de Overeenkomst vormen.
+
+Kosten die voortvloeien uit de toepassing van de Strategische Reserve of de kosten die niet gerelateerd zijn aan de evenwichtsverantwoordelijkheid, zoals doch niet beperkt tot de kosten en onbalanskosten die voortvloeien uit een abnormale werking van de markt waarbij de handel op de *day ahead*-spotmarkt wordt geschorst of onmogelijk gemaakt, zijn nooit inbegrepen in de prijs en zijn ten laste van de klant.
+
+In geval van terugkoop van elektriciteit is de Leverancier de producent een vergoeding verschuldigd zoals bepaald in de Overeenkomst. 
+
+**Artikel 6: FACTURATIE EN BETALINGSMODALITEITEN**
+
+**6.1  Meetgegevens**
+
+De Klant draagt er zorg voor dat alle door de Leverancier gevraagde gegevens die noodzakelijk zijn voor de Levering (waaronder het vestigingsadres, de hoeveelheid benodigde elektriciteit en/of gas, de meetfrequentie, de EAN-code) correct en tijdig worden aangeleverd aan de Leverancier.
+
+De meetinrichting(en) dient (dienen) te voldoen aan de eisen gesteld in het Technisch Reglement en eventueel aanvullende voorwaarden die door de Netbeheerder worden opgelegd. De Klant garandeert dat de meetinrichting(en) aan deze voorwaarden voldoe(t)(n).
+
+De Klant geeft, voor de afnamepunten opgenomen in de Overeenkomst, een mandaat aan de Leverancier om in zijn naam zijn verbruiksgegevens van de laatste 36 maand op te vragen bij de Netbeheerder. Dit mandaat blijft geldig tot 6 maanden na het eind van de Overeenkomst.
+
+De meetgegevens die de Netbeheerder aan de Leverancier bezorgt met betrekking tot het (de) Afnamepunt(en) worden door de Leverancier gebruikt voor facturatiedoeleinden. Indien de Leverancier niet tijdig beschikt over de meetgegevens of indien tijdens de opname of het verwerken van de meetgegevens een kennelijke fout is gemaakt, dan mag de Leverancier de hoeveelheid afgenomen elektriciteit of aardgas of hoeveelheid geproduceerde/geïnjecteerde elektriciteit over de betrokken periode naar billijkheid inschatten. Na ontvangst van de definitieve meetgegevens van de Netbeheerder zal de Leverancier een correctie doorvoeren.
+
+Voor jaarlijks opgenomen afnamepunten zal de Leverancier tussentijdse facturen sturen naar de Klant waarbij het bedrag van de voorschotten berekend zal worden aan de hand van de historische verbruiken van de Klant. Indien er geen historische verbruiksgegevens van de Klant beschikbaar zijn, zal de Leverancier het bedrag van de voorschotten naar billijkheid inschatten (onder meer op grond van het contractueel geschatte afnamevolume).
+
+De Leverancier zal maandelijks factureren voor alle bedragen die de Klant ingevolge de Overeenkomst aan de Leverancier is verschuldigd. De facturatie bestaat uit een voorschotbedrag en/of afrekening (maandelijks of jaarlijks, naargelang de meetinstallatie van de Klant). Het voorschotbedrag is gebaseerd op het ingeschatte verbruik en de specifieke marktcondities voor elke facturatieperiode. Nadat de Leverancier de benodigde meetgegevens via de Netbeheerder(s) verkregen heeft, wordt via een afrekeningsfactuur het definitieve werkelijke verbruik in rekening gebracht en verrekend met de reeds gefactureerde voorlopige/geschatte verbruiken.
+
+De Klant mag geen handelingen verrichten of doen verrichten, waardoor de omvang van de afnames, injecties, producties en verbruiken niet of niet correct zou kunnen worden vastgesteld, dan wel een situatie creëren waardoor het normaal functioneren van de meetinrichting verhinderd zou kunnen worden of de tarievenregeling van de Leverancier niet correct zou kunnen worden toegepast.
+
+De Klant is aansprakelijk voor alle schade en kosten die voortvloeien uit het niet, onvolledig of niet correct en/of tijdig aanleveren van bedoelde gegevens (dan wel wijzigingen in die gegevens). De Leverancier behoudt zich het recht voor om de prijsberekening, die werd gebaseerd op onvolledige of onjuiste aangeleverde gegevens, aan te passen op basis van de juiste gegevens.
+
+Bij twijfel over de juistheid van de meting kan op verzoek van zowel de Klant, als de Leverancier onderzocht worden of de meetinstallatie voldoet aan de normen uit het Aansluitingscontract. Alle niet door de Netbeheerder gedragen kosten van dit onderzoek worden, overeenkomstig het Technisch Reglement, in principe gedragen door de Klant. Als het onderzoek echter uitwijst dat de afwijking gelijk of kleiner is en het onderzoek op initiatief van de Leverancier plaatsvond, zijn de kosten ten laste van de Leverancier.  Als het onderzoek daarentegen uitwijst dat de afwijking groter is dan toegestaan binnen de geldende norm in het Aansluitingscontract, zal de Leverancier de omvang van de werkelijke levering inschatten middels de uitkomst van het onderzoek. Een herberekening zal plaatsvinden over de periode dewelke de meetinrichting onjuist heeft gefunctioneerd, voor een maximale periode van 24 maanden.
+
+Als de omvang van de Levering niet juist kan worden vastgesteld door toedoen van de Klant en/of als aannemelijk is dat Klant zelf de onjuistheid van de registratie had kunnen vaststellen zal er een volledige herberekening plaatsvinden.
+
+Indien het onderzoek geen hanteerbare maatstaf oplevert voor het vaststellen van de juiste omvang van de Levering, is de Leverancier bevoegd de omvang van de Levering over het desbetreffende tijdvak te schatten.
+
+**6.2  Betalingstermijn en modaliteiten**
+
+De betalingstermijn bedraagt 15 dagen te rekenen vanaf de factuurdatum, tenzij anders overeengekomen in de bijzondere voorwaarden. Klachten aangaande facturen doen geen afbreuk aan de tijdige betalingsverplichting van de Klant, behoudens in geval van manifeste materiële vergissing in de factuur. In elk geval zal de Klant het onbetwiste deel van de factuur steeds dienen te betalen binnen de voorziene betalingstermijn. Indien het betwiste deel van de factuur achteraf betaalbaar wordt bevonden, zijn verwijlintresten verschuldigd door de Klant vanaf de oorspronkelijke vervaldag van de factuur tot de laatste dag van betaling en dit overeenkomstig artikel 6.4 van huidige Algemene Voorwaarden, alsook de in artikel 6.4 voorziene forfaitaire schadevergoeding. Facturen worden geacht te zijn aanvaard indien ze niet binnen de 10 dagen na verzending ervan uitdrukkelijk, afdoende gemotiveerd en per aangetekend schrijven worden betwist. De Klant is in geen geval gerechtigd de hem in rekening gebrachte bedragen te verrekenen met enig bedrag dat de Leverancier aan hem verschuldigd zou zijn.
+
+De Leverancier verstuurt de facturen die betrekking hebben op de op basis van de Overeenkomst door de Klant verschuldigde bedragen naar het e-mailadres van de maatschappelijke zetel van de Klant of naar het e-mailadres dat genoemd is bij de ondergetekenden in de Overeenkomst, tenzij anders overeengekomen. De Klant is er toe gehouden elke wijziging van contactgegevens onmiddellijk mee te delen aan de Leverancier.
+
+De verrekening van de desgevallend door de Klant geïnjecteerde en aan de Leverancier verkochte elektriciteit met de door de Leverancier geleverde elektriciteit, gebeurt op basis van de *self-billing* facturen zoals voorzien in de bijzondere voorwaarden voor levering en terugname van elektriciteit.
+
+Indien er meerdere natuurlijke personen en/of rechtspersonen zich ten aanzien van de Leverancier hebben verbonden in dezelfde Overeenkomst, ongeacht over welke afnamepunten het gaat, dan zijn zij hoofdelijk en ondeelbaar gehouden tot de uitvoering van de verbintenissen.
+
+**6.3  Rechtzettingen van facturen**
+
+De Leverancier heeft het recht om facturen mits verantwoording recht te zetten tot 48 maanden na de betalingsdatum van de te corrigeren factuur.
+
+**6.4  Verwijlintresten en vergoeding bij wanbetaling**
+
+Indien de Klant niet, niet volledig en/of niet tijdig heeft betaald is hij van rechtswege in verzuim.
+
+In dergelijk geval is de Klant van rechtswege en zonder vereiste van voorafgaandelijke ingebrekestelling, een nalatigheidsinterest van 10% per jaar op het openstaande factuurbedrag verschuldigd, evenals een schadevergoeding van 10% van het openstaande factuurbedrag, met een minimum van 25 euro. Voorgaande geldt onverminderd het recht van de Leverancier op vergoeding van kosten van gerechtelijke en/of buitengerechtelijke inning.
+
+In geval van laattijdige betaling of een geweigerde bankdomiciliering is de Leverancier van rechtswege gerechtigd administratieve kosten aan te rekenen voor het toezenden van extra facturen, duplicaten en/of herinneringsbrieven en e- mails. Deze administratieve kost bedraagt 5 euro voor brieven en e-mails en 20 euro voor aangetekende zendingen.
+
+**6.5  Waarborgen, garanties en vooruitbetalingen**
+
+De Leverancier kan, indien zij dit aangewezen acht in het licht van de financiële situatie of het betaalgedrag van de Klant, naar eigen keuze een waarborgsom, bankgarantie of vooruitbetaling van facturen vereisen die strekt tot zekerheid van betaling van de op grond van de Overeenkomst of deze Algemene Voorwaarden verschuldigde bedragen, waarvan de waarde hoogstens gelijk is aan 6 maand de contractwaarde inclusief transport, distributie, taksen/heffingen en BTW.
+
+Onverminderd de in artikel 6.4 van huidige Algemene Voorwaarden voorziene verwijlinteresten en vergoeding bij wanbetaling, is de Leverancier gerechtigd om eenzijdig de Overeenkomst te beëindigen op kosten van de Klant, indien de Klant binnen de 15 werkdagen na het verzoek daartoe van de Leverancier geen waarborgsom, bankgarantie of vooruitbetaling, volgens de keuze van de Leverancier, heeft uitgevoerd of zal uitvoeren. De Klant is in dergelijk geval steeds verplicht om de integrale openstaande schuld tot de laatste dag van levering aan de Leverancier te betalen, vermeerderd met vergoeding van alle schade die de Leverancier lijdt ten gevolge van de voortijdige stopzetting.
+
+Een waarborgsom zal worden terugbetaald zodra de noodzaak tot zekerheidstelling niet langer bestaat en in ieder geval zo spoedig mogelijk na beëindiging van de Overeenkomst, onder aftrek van het bedrag dat eventueel nog verschuldigd is. 
+
+**6.6  Eigendomsvoorbehoud**
+
+De door de Leverancier geleverde aardgas en elektriciteit blijven, in zoverre deze nog niet zijn verbruikt (bijv. indien de Klant deze heeft opgeslagen), de exclusieve eigendom van de Leverancier tot de dag waarop de Klant deze leveringen integraal heeft betaald. De Leverancier behoudt zich het recht voor om, ten allen tijde, de geleverde aardgas of elektriciteit op kosten van de Klant terug te nemen. Dit terugvorderingsrecht wordt uitgeoefend bij eenvoudige brief. Ingeval van voortverkoop ervan door de Klant, komt het recht op de daaruit resulterende verkoopprijs in de plaats van de geleverde aardgas of elektriciteit. Onverminderd  het hiervoor  bepaalde, gaan alle risico’s, van welke aard ook, onmiddellijk over op de Klant vanaf het tijdstip van de levering.
+
+**Artikel 7. ENERGIE DELEN**
+
+Klanten met een digitale meter hebben het recht om hun zelf opgewekte energie direct met een groep buren, vrienden, familie, overheden, kmo’s of zichzelf te delen. De energie die via dit systeem gedeeld wordt zal aan de Belpex day-ahead uurprijs afgerekend worden tussen de afnemer en de producent. De afrekening door de Leverancier van het gedeelde volume gebeurt na de facturatie van het gemeten volume, namelijk na ontvangst van het gedeelde volume dat door de Netbeheerder berekend wordt. De Leverancier zal hiervoor ook een forfaitaire administratieve kost van 9 EUR per maand en per aansluiting (Afnamepunt en Injectiepunt) aanrekenen.
+
+**Artikel 8. AANSPRAKELIJKHEID**
+
+De Leverancier kan ten aanzien van Klant nimmer aansprakelijk gehouden worden voor schade, ontstaan ten gevolge van enige tekortkoming in de nakoming van haar verplichtingen door de Leverancier zelf, haar werknemer(s), ondergeschikte(n) en/of niet- ondergeschikten, behoudens ingeval de schade ontstaat als gevolg van opzet of zware fout van de Leverancier. De Leverancier is nimmer gehouden tot vergoeding van indirecte, gevolg- en/of bedrijfsschade waaronder mede begrepen winst- of inkomstenderving en tot vergoeding van immateriële schade. De Klant zal de Leverancier vrijwaren tegen alle aanspraken van derden op vergoeding van schade en/of kosten, uit welken hoofde dan ook, verband houdende met de verplichtingen van de Leverancier onder de Overeenkomst.
+
+De Leverancier is voorts nooit aansprakelijk voor schade bij onderbreking, beperking of gebrek in de levering van elektriciteit en/of gas omwille van (i) het niet of niet goed functioneren van een installatie of aansluiting van de Klant en/of van (ii) het niet of niet goed functioneren van een net en/of enige andere technische voorschakel in de stroom- en/of gasvoorziening en/of van (iii) het ontbreken, onderbreken of beëindigen van een Aansluitingscontract tussen de Klant en de Netbeheerder en/of (iv) het ontbreken, onderbreken of beëindigen van het Toegangscontract.
+
+De Leverancier kan in geen geval aansprakelijk gesteld worden voor enige schade veroorzaakt door een tekortkoming in hoofde van de Netbeheerder, die immers de uitsluitende verantwoordelijkheid draagt voor het correct functioneren van de meetinrichting en de juistheid van de meetgegevens en de daaruit voortvloeiende (te nemen) handelingen.
+
+De Klant zal de Leverancier vrijwaren tegen en schadeloosstellen ten aanzien van alle schade en kosten die ontstaan ten gevolge van de niet-nakoming door de Klant van zijn verplichtingen als bedoeld in artikel 3.1 van deze Algemene Voorwaarden of enig onrechtmatig handelen door de Klant jegens de Netbeheerder.
+
+In ieder geval is de aansprakelijkheid van de Leverancier beperkt tot driemaal het gemiddelde maandfactuurbedrag voor de levering van de elektriciteit en/of aardgas aan de desbetreffende vestiging(en), zulks te allen tijde tot een maximumbedrag van € 100.000. 
+
+**Artikel 9. OVERMACHT EN HARDSHIP**
+
+**9.1  Overmacht - Algemeen**
+
+In geval van overmacht, mogen partijen een of meer van hun verplichtingen geheel of gedeeltelijk opschorten.
+
+Indien één van de partijen ten gevolge van overmacht verhinderd is haar verplichtingen onder de Overeenkomst na te leven, zal deze partij de andere partij onmiddellijk van dergelijke verhindering in kennis stellen. Voorts zal hij de andere partij op de hoogte houden van alle ontwikkelingen die verband houden met de overmacht.
+
+Indien door overmacht de nakoming van de verplichtingen uit de Overeenkomst verhinderd wordt gedurende een termijn van meer dan 3 maanden, zijn beide partijen gerechtigd de Overeenkomst te ontbinden, zonder dat er in dat geval een verplichting tot schadeloosstelling ontstaat.
+
+**9.2  Overmacht - Toepassingsgevallen**
+
+Onder “Overmacht” wordt in ieder geval verstaan elke onvoorzienbare en onvermijdbare omstandigheid of gebeurtenis, of geheel van omstandigheden of gebeurtenissen, die de nakoming van de verbintenissen tussen de partijen in het kader van de Overeenkomst verhindert, en die niet aan de partij die beroep doet op overmacht is toe te rekenen.
+
+Onder meer volgende gebeurtenissen kwalificeren de partijen uitdrukkelijk als een overmachtssituatie: (i) stagnaties bij toegangsverantwoordelijken of andere derden waarvan de Leverancier afhankelijk is, (ii) de toepassing van de Strategische Reserve of elke vorm van netincident (black-out/brown-out) die de levering van de elektriciteit en/of gas aan de Klant onmogelijk maakt, (iii) ingeval de afname door de Klant wordt belemmerd ten gevolge van het niet of niet goed functioneren van een installatie of aansluiting van de Klant en/of van net en/of enige andere technische voorschakel in de stroom- en/of gasvoorziening en/of van het ontbreken, onderbreken, of beëindigen van een Aansluitingscontract tussen de Klant en de Netbeheerder, dan wel iedere andere omstandigheid in het kader van de aansluiting en de distributie of enige andere technische schakel in de stroom en/of gasvoorziening (een dergelijke belemmering blijft voor rekening en risico van de Klant en laat een eventuele minimum afnameverplichting van de Klant onverlet) en (iv) indien de Leverancier haar de licentie en/of toegang verliest die nodig is voor de opname en het leveren van elektriciteit of aardgas op de markt, ondanks redelijke inspanningen geleverd te hebben om haar licentie en/of toegang te kunnen behouden.
+
+**9.3  Hardship**
+
+Indien zich na het sluiten van de Overeenkomst veranderende omstandigheden voordoen die de uitvoering van de Overeenkomst door de Leverancier wezenlijk moeilijker of duurder maken of het initiële contractuele / economische evenwicht wezenlijk kunnen verstoren, of (ii) indien de toepasselijke wet- of regelgeving betreffende de werking van de markten voor elektriciteit en gas is veranderd, mag de Leverancier al naargelang de omstandigheden zijn prestaties opschorten of een voorstel doen om de voorwaarden van de Overeenkomst (inclusief de prijzen) aan te passen met het oog op het herstellen van het evenwicht binnen de Overeenkomst. Bij ernstig gemotiveerde betwisting van dergelijke aanpassing, zullen partijen hierover onderhandelen.  Bij afwijzing of mislukking van de heronderhandelingen binnen een redelijke termijn, kan de rechter, op verzoek van de meest gerede partij, ofwel (i) de Overeenkomst aanpassen om deze in overeenstemming te brengen met hetgeen de partijen redelijkerwijze zouden zijn overeengekomen op het tijdstip van de sluiting van de Overeenkomst indien zij rekening hadden gehouden met de verandering van de omstandigheden, ofwel (ii) de Overeenkomst geheel of gedeeltelijk beëindigen op een datum die niet mag voorafgaan aan de verandering van omstandigheden en volgens de modaliteiten die de rechter vaststelt. Dergelijke vordering wordt ingesteld en behandeld zoals in kort geding.
+
+**Artikel 10. ONTBINDING EN OPZEGGING**
+
+Elke partij heeft het recht de Overeenkomst onmiddellijk en zonder voorafgaande rechterlijke tussenkomst te ontbinden indien de andere partij op verwijtbare wijze niet voldoet aan een essentiële verplichting van deze Overeenkomst en in gebreke blijft om deze tekortkoming recht te zetten binnen de 10 kalenderdagen na ontvangst van de aangetekende ingebrekestelling. Dergelijke essentiële verplichting is bijvoorbeeld (zonder daartoe beperkt te zijn):
+
+- het naleven van de betalingsverplichtingen;
+- de afname van elektriciteit en aardgas;
+- de injectie van elektriciteit;
+- het voorleggen van de nodige bankgaranties of waarborgen;
+- het uitvoeren van de gevraagde voorafbetalingen.
+
+Indien de Overeenkomst betrekking heeft op meerdere Afnamepunten, en de inbreuk betreft één (of meerdere) Afnamepunt(en), dan kan de Overeenkomst gedeeltelijk worden ontbonden voor het (de) betreffende Afnamepunt(en).
+
+De Leverancier heeft het recht haar verplichtingen onder de Overeenkomst met de Klant op te schorten of om de Overeenkomst van rechtswege en zonder ingebrekestelling met onmiddellijke ingang geheel of gedeeltelijk te beëindigen indien en vanaf het ogenblik waarop de Klant in staat van faillissement wordt verklaard, wordt ontbonden of ophoudt te bestaan. De bedragen die op het ogenblik van faillissement verschuldigd zijn door de Klant worden onmiddellijk opeisbaar.  Het faillissement doet bovendien geen afbreuk aan het recht van de Leverancier om van de Klant een schadevergoeding te eisen voor de schade die hij lijdt ten gevolge van de voortijdige beëindiging van de Overeenkomst.
+
+De ontbinding van de Overeenkomst door de Leverancier, als gevolg van een contractuele wanprestatie van de Klant, zorgt ervoor dat alle verschuldigde bedragen onmiddellijk opeisbaar worden en doet geen afbreuk aan het recht van de Leverancier om een forfaitaire schadevergoeding aan te rekenen. Deze forfaitaire schadevergoeding zal minimaal gelijk zijn aan de totale factuurwaarde van drie maanden geschat verbruik van de betreffende afnamepunten. In alle gevallen kan een hoger bedrag worden gevorderd indien de geleden schade voornoemde forfaitaire schadevergoeding overschrijdt.
+
+Indien een partij de Overeenkomst ontbindt, wordt de Netbeheerder op de hoogte gesteld van het feit dat de Leverancier of de door hem aangestelde derde geen toegangshouder, Evenwichtsverantwoordelijke en/of Leverancier meer zal zijn voor het (de) Afnamepunt(en).  Zolang de Leverancier of aangestelde derde echter geregistreerd blijft bij de Netbeheerder als toegangshouder, Evenwichtsverantwoordelijke en/of Leverancier voor het (de) Afnamepunt(en), zal de Leverancier de Klant blijven voorzien in de onder de ontbonden Overeenkomst overeengekomen hoeveelheid elektriciteit en/of gas, tot op het moment waarop de switch is doorgevoerd.  De prijs van de hoeveelheid afgenomen elektriciteit en/of gas in deze periode is berekend als volgt:
+
+- Elektriciteit: Belpex day-ahead uur-prijs + 25 euro, net verlies en onbalanskosten niet inbegrepen
+- Aardgas: TTF day-ahead dag-prijs + 25 euro, onbalanskosten inbegrepen
+
+In geval van terugname van elektriciteit zal de Leverancier in dat geval de elektriciteit van de Klant blijven afnemen tot de doorvoering van de switch. De prijs van de hoeveelheid teruggenomen elektriciteit in deze periode is berekend als volgt:
+
+- Elektriciteit: Belpex day-ahead uur-prijs - 25 euro, onbalanskosten niet inbegrepen
+
+De Leverancier wordt uitdrukkelijk het recht verleend om (het gedeelte van) Overeenkomsten aangegaan onder variabele prijzen kosteloos en per aangetekend schrijven vervroegd op te zeggen, mits inachtneming van een opzeggingstermijn van twee maanden.
+
+**Artikel 11. VOLMACHT**
+
+De Klant machtigt de Leverancier om alle benodigde handelingen te (laten) verrichten die nodig zijn om de verplichtingen die ingevolge de Overeenkomst aan de Leverancier gesteld worden uit te (kunnen) voeren. De Klant machtigt de Leverancier bijvoorbeeld om informatie zoals (historische) verbruiksgegevens van het (de) aansluitingspunt(en) bij de Netbeheerder op te vragen en een verzoek tot leveranciersswitch in te dienen ten behoeve van de Klant. 
+
+**Artikel 12. OVERDRACHT - FAILLISSEMENT**
+
+Beide partijen kunnen de Overeenkomst in principe geheel of gedeeltelijk overdragen aan een derde partij, na de andere partij voorafgaandelijk aan dergelijke overdracht schriftelijk op de hoogte te hebben gebracht. De overnemende partij zal zich ertoe verbinden alle verplichtingen van de Overeenkomst na te leven. Ingeval van overdracht door de Klant heeft de Leverancier het recht de overnemende partij voorafgaandelijk een waarborg en/of voorafbetaling te vragen overeenkomstig de modaliteiten bepaald in artikel 6.5 of de overnemende partij te weigeren indien diens financiële, commerciële en technische situatie niet geschikt is om te kunnen voldoen aan het geheel van de uit de Overeenkomst voortvloeiende verplichtingen.
+
+Het faillissement van één van de partijen stelt automatisch een einde aan de Overeenkomst, en dit met onmiddellijke ingang op de datum van het vonnis van faillietverklaring, zonder dat een voorafgaande kennisgeving aan de andere partij of een rechterlijke tussenkomst vereist is.
+
+Indien de Klant een procedure van gerechtelijke reorganisatie heeft aangevraagd, of wanneer dergelijke procedure is geopend, behoudt de Leverancier zich uitdrukkelijk het recht voor om de Overeenkomst te beëindigen indien de vervallen facturen niet werden betaald binnen de 15 kalenderdagen nadat de Klant hiertoe schriftelijk in gebreke werd gesteld. 
+
+**Artikel 13. GESCHILLEN**
+
+Alle geschillen welke tussen partijen mochten ontstaan naar aanleiding van de Overeenkomst en de daarbij behorende bijlagen vallen onder de rechtsmacht van de Belgische rechtbanken en de bevoegdheid van de rechtbanken van de maatschappelijke zetel van de Leverancier.
+
+De Overeenkomst wordt beheerst door het Belgisch recht, met uitsluiting van internationale verdragen of soortgelijke reguleringen terzake de koop van roerende zaken, en met uitsluiting van de artikelen 1641-1648 Oud Burgerlijk Wetboek. 
+
+**Artikel 14. VERTROUWELIJKHEID**
+
+Partijen erkennen het vertrouwelijk karakter van de Overeenkomst. Zij zullen op geen enkele wijze, direct noch indirect, mondeling noch noch schriftelijk of anderszins gedurende de looptijd of na de beëindiging van de Overeenkomst informatie welke hen in het kader van de Overeenkomst en de hieraan verwante regelingen en afspraken aan derden bekendmaken, behoudens na voorafgaande schriftelijke toestemming van de wederpartij(en) en dit voor behoorlijke uitvoering van de Overeenkomst noodzakelijk is. Worden voor de toepassing van dit artikel niet als derde beschouwd: verzekeraars van partijen, verzekeringsmakelaars, de Netbeheerder(s), de bevoegde overheden, aangestelden die wegens hun functie toegang moeten hebben tot deze informatie, fiscale en juridische adviseurs, bedrijfsrevisoren en financiële instellingen. Dit artikel blijft in werking 5 jaar nadat de Overeenkomst een einde heeft genomen. 
+
+**Artikel 15. GEWIJZIGD REGULEREND KADER**
+
+Indien een wijziging van de toepasselijke wetgeving of regulering van die aard zou zijn dat de ongewijzigde instandhouding van de Overeenkomst ten opzichte van één of beide partijen naar maatstaven van redelijkheid en billijkheid niet langer redelijkerwijze kan worden verwacht, kan elke partij de heronderhandeling van de Overeenkomst vragen met het oog op het herstellen van het oorspronkelijke evenwicht. Deze heronderhandeling wordt te goeder trouw uitgevoerd.  Indien de voortzetting van de Overeenkomst niet meer mogelijk is, zullen partijen met elkaar in overleg treden over het aangaan van een nieuwe overeenkomst. Een wijziging van het regulerend kader ontslaat geen enkele partij van haar verplichtingen onder de Overeenkomst, zodat de Overeenkomst tijdens de heronderhandeling integraal moet worden uitgevoerd. Bij gebreke aan akkoord binnen een redelijke termijn, kan de rechter, op verzoek van de meest gerede partij, ofwel (i) de Overeenkomst aanpassen om deze in overeenstemming te brengen met hetgeen de partijen redelijkerwijze zouden zijn overeengekomen op het tijdstip van de sluiting van de Overeenkomst indien zij rekening hadden gehouden met de verandering van de omstandigheden, ofwel (ii) de Overeenkomst geheel of gedeeltelijk beëindigen op een datum die niet mag voorafgaan aan de verandering van omstandigheden en volgens de modaliteiten die de rechter vaststelt. Dergelijke vordering wordt ingesteld en behandeld zoals in kort geding.
+
+**Artikel 16. WIJZIGINGEN VAN DEZE ALGEMENE VOORWAARDEN**
+
+De Leverancier is gerechtigd deze Algemene Voorwaarden en de op grond daarvan van toepassing zijnde voorschriften en regelingen te wijzigen indien hij van oordeel is dat daar voldoende ernstige redenen toe zijn, zoals doch niet beperkt tot wijzigingen in de groot- of kleinhandelsmarkten, wijzigingen in de productie of distributie van energie, wijzigingen in de wetgeving, wijzigingen in de economische of politieke situatie, of een periodieke update om na verloop van tijd rekening te houden met diverse evoluties in het algemeen. Dergelijke wijzigingen treden 30 dagen na de dag waarop zij aan Klant zijn medegedeeld in werking, tenzij in de mededeling een andere datum van inwerkingtreding is vermeld. Indien de artikelnummering van de Algemene Voorwaarden wijzigt, zullen verwijzingen in de Overeenkomst naar een artikelnummer uit oude Algemene Voorwaarden, dienen te worden begrepen als verwijzingen naar het/de relevante artikel(s) die de inhoud ervan vervang(t)(en) in de nieuwe Algemene Voorwaarden.
+
+Wijzigingen gelden eveneens ten aanzien van reeds bestaande Overeenkomsten. Indien de Klant een (de) wijziging(en) niet wenst te aanvaarden en deze wijziging niet voortvloeit uit een dwingend rechtelijke regeling, heeft de Klant het recht de Overeenkomst op te zeggen. Dergelijke opzegging dient per aangetekend schrijven en met inachtneming van een opzegtermijn van minimaal 2 maanden plaats te vinden, tenzij de Leverancier gelet op de specifieke omstandigheden een andere wijze en/of termijn van opzegging uitdrukkelijk aanvaardt. Gedurende de termijn dat de Overeenkomst na opzegging ingevolge deze bepaling verder van kracht is, blijven deze Algemene Voorwaarden, ongewijzigd, op de Overeenkomst van toepassing. Indien de klant een (de) wijziging(en) niet per aangetekend schrijven en gemotiveerd protesteert binnen de 30 dagen na de dag waarop de wijziging(en) aan de Klant zijn meegedeeld, wordt de klant in elk geval geacht de wijzigingen te hebben aanvaard.
+
+**Artikel 17. DEELBAARHEID**
+
+De nietigheid of onafdwingbaarheid van (een gedeelte van) een bepaling van de Overeenkomst brengt enkel de nietigheid of onafdwingbaarheid van dat onderdeel mee, en niet die van de gehele bepaling of Overeenkomst. Een (gedeeltelijk) nietige of onafdwingbare bepaling vervangen partijen, of de rechter bij gebrek aan akkoord, door een bepaling die zo nauw mogelijk aansluit bij de doelstelling van de oorspronkelijke bepaling.
+
+**Artikel 18. ONLINE DIENSTEN**
+
+**18.1. Toegang tot de Online Diensten**
+
+De door de Klant aangeduide gebruikers (de “Gebruikers”) zullen van de Leverancier een toegang ontvangen tot de internettoepassingen die geraadpleegd kunnen worden via het klantenportaal *my elexys* op de website van de Leverancier ([www.elexys.be](http://www.elexys.be)) (hierna de “Online Diensten”), door middel van een strikt persoonlijk(e) en vertrouwelijk(e) gebruikersnaam en wachtwoord. De Klant is als enige aansprakelijk voor alle gebruik van de Online Diensten, de gebruikersnamen en wachtwoorden. Bijgevolg gaat de Klant er uitdrukkelijk mee akkoord dat (i) elk gebruik van de gebruikersnaam en het wachtwoord wordt geacht te worden verricht door een Gebruiker die bevoegd is om gebruik te maken van de Online Diensten in naam en voor rekening van de Klant, en (ii) de wachtwoordbeveiliging onder de uitsluitende verantwoordelijkheid van de Klant valt. De Klant waarborgt dat alle Gebruikers behoorlijk werden geïnformeerd over deze toepassingsmodaliteiten en deze zullen naleven, en brengt de Leverancier onmiddellijk op de hoogte van elk gebruik dat niet met deze toepassingsmodaliteiten overeenstemt.
+
+**18.2. Intellectuele eigendom**
+
+Alle intellectuele eigendomsrechten m.b.t. de inhoud, de structuur en de architectuur van de websites waarop de Online Diensten worden aangeboden, en in het bijzonder – zonder daartoe beperkt te zijn – m.b.t. de software, foto's, teksten, logo's, slogans en handelsnamen zijn eigendom van de Leverancier of haar licentiegevers. Behoudens voorafgaande en schriftelijke toestemming van de Leverancier of haar eventuele andere rechthebbenden is elke reproductie, verhuur, uitlening, uitzending of gebruik voor openbare uitvoering van de websites en hun inhoud, door om het even welk middel, strikt verboden.
+
+**18.3. Aansprakelijkheid – Gebruik van het internet**
+
+De Leverancier wijst elke aansprakelijkheid voor de interceptie van gegevens en/of communicatie door derden af. De Leverancier zal niet aansprakelijk zijn voor de toegang tot, de snelheid en/of de beschikbaarheid van internet en/of de Online Diensten en/of de netwerkdiensten, noch voor de nauwkeurigheid, de volledigheid of het gebruik van de informatie die door de Klant via de Online Diensten wordt ontvangen. De Klant zal de Leverancier schadeloos stellen en vrijwaren voor elke vordering van derden die voortvloeit uit het gebruik van de Online Diensten door de Klant.
+
+**18.4. Stopzetting gebruik van de Online Diensten**
+
+De Online Diensten worden verleend voor de duur van de Overeenkomst. De Leverancier kan echter de Online Diensten onmiddellijk stopzetten indien de Klant en/of een Gebruiker niet voldoet aan een essentiële verplichting in het kader van de Online Diensten. Een tekortkoming aan een essentiële verplichting in het kader van de Online Diensten is bijvoorbeeld (zonder daartoe beperkt te zijn) het ongeoorloofd, bedrieglijk of ander onwettig gebruik van de Online Diensten, het in gedrang brengen van de fatsoenlijke en efficiënte werking van de Online Diensten of een schending van de vertrouwelijkheidsverplichtingen.
+
+**Artikel 19. SLOTBEPALINGEN**
+
+Deze voorwaarden liggen bij de Leverancier ter inzage en zijn aldaar op aanvraag kosteloos verkrijgbaar.
+
+Afwijkingen van deze Algemene Voorwaarden kunnen alleen schriftelijk worden overeengekomen.
+
+Het niet aandringen op de naleving van een of meerdere bepalingen van de Overeenkomst of van deze Algemene Voorwaarden mag niet worden opgevat als verzaking hieraan of een beperking van de rechten tussen de Partijen.
+
+De toepasselijkheid van algemene voorwaarden van de Klant wordt hierbij uitdrukkelijk van de hand gewezen, en in elk geval gaan de huidige Algemene Voorwaarden steeds voor daarop.
