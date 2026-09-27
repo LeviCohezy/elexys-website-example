@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import type { ReactNode } from "react";
+import { Magnetic } from "./motion/magnetic";
 
 export function Eyebrow({
   children,
@@ -19,9 +20,7 @@ export function Eyebrow({
     >
       <span
         className={
-          tone === "dark"
-            ? "size-1.5 rounded-full bg-sky"
-            : "size-1.5 rounded-full bg-brand"
+          tone === "dark" ? "size-1.5 rounded-full bg-sky" : "size-1.5 rounded-full bg-brand"
         }
       />
       {children}
@@ -55,16 +54,18 @@ export function PillButton({
   }[variant];
 
   return (
-    <Link
-      href={href}
-      className={`group inline-flex items-center gap-3 rounded-full py-1.5 pr-1.5 pl-6 text-sm font-medium transition-colors ${styles}`}
-    >
-      {children}
-      <span
-        className={`grid size-9 place-items-center rounded-full transition-transform duration-500 ease-out-soft group-hover:rotate-45 ${dot}`}
+    <Magnetic>
+      <Link
+        href={href}
+        className={`group inline-flex items-center gap-3 rounded-full py-1.5 pr-1.5 pl-6 text-sm font-medium transition-colors ${styles}`}
       >
-        <ArrowUpRight className="size-4" />
-      </span>
-    </Link>
+        {children}
+        <span
+          className={`grid size-9 place-items-center rounded-full transition-transform duration-500 ease-out-soft group-hover:rotate-45 ${dot}`}
+        >
+          <ArrowUpRight className="size-4" />
+        </span>
+      </Link>
+    </Magnetic>
   );
 }

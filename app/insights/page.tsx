@@ -53,7 +53,7 @@ export default function InsightsPage() {
 
       {groups.map((g) => (
         <section key={g.name} className="mx-auto max-w-[1240px] px-6 py-16 sm:px-10 sm:py-20">
-          <Reveal>
+          <Reveal variant="mask">
             <h2 className="flex items-center gap-3 text-4xl leading-[1.1] font-light tracking-[-0.03em] sm:text-5xl">
               <span className="grid size-12 place-items-center rounded-full bg-sky-soft text-brand">
                 <g.icon className="size-5" />

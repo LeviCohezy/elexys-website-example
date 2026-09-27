@@ -29,7 +29,12 @@ export function Footer() {
               </p>
               <ul className="mt-8 space-y-3 text-sm text-white/80">
                 <li>
-                  <a href={contact.mapsHref} target="_blank" rel="noopener" className="flex items-start gap-3 hover:text-white">
+                  <a
+                    href={contact.mapsHref}
+                    target="_blank"
+                    rel="noopener"
+                    className="flex items-start gap-3 hover:text-white"
+                  >
                     <MapPin className="mt-0.5 size-4 shrink-0 text-sky" />
                     {contact.street}, {contact.city}
                   </a>
@@ -41,7 +46,10 @@ export function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href={`mailto:${contact.email}`} className="flex items-center gap-3 hover:text-white">
+                  <a
+                    href={`mailto:${contact.email}`}
+                    className="flex items-center gap-3 hover:text-white"
+                  >
                     <Mail className="size-4 shrink-0 text-sky" />
                     {contact.email}
                   </a>
@@ -59,7 +67,10 @@ export function Footer() {
                     {col.links.map((l) => (
                       <li key={l.href}>
                         {isExternal(l.href) ? (
-                          <a href={l.href} className="inline-flex items-center gap-1 hover:text-white">
+                          <a
+                            href={l.href}
+                            className="inline-flex items-center gap-1 hover:text-white"
+                          >
                             {l.label}
                             <ArrowUpRight className="size-3.5" />
                           </a>
@@ -76,7 +87,14 @@ export function Footer() {
             </div>
           </div>
 
-          <div className="mt-16 flex flex-col gap-3 border-t border-white/15 pt-8 text-xs text-white/45 sm:flex-row sm:items-center sm:justify-between">
+          <div
+            aria-hidden
+            className="pointer-events-none mt-16 -mb-[4%] select-none text-center text-[23vw] leading-[0.8] font-medium tracking-[-0.06em] text-white/[0.07] lg:text-[300px]"
+          >
+            elexys
+          </div>
+
+          <div className="relative flex flex-col gap-3 border-t border-white/15 pt-8 text-xs text-white/45 sm:flex-row sm:items-center sm:justify-between">
             <p>
               © {new Date().getFullYear()} {contact.company} · BTW {contact.vat}
             </p>

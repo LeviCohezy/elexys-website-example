@@ -156,7 +156,7 @@ export default async function ProductPage({ params }: PageProps<"/product/[slug]
       {related.length > 0 && (
         <section className="mx-auto max-w-[1240px] px-6 pb-8 sm:px-10">
           <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
-            <Reveal>
+            <Reveal variant="mask">
               <h2 className="text-3xl leading-[1.1] font-light tracking-[-0.03em] sm:text-4xl">
                 <Muted>Andere formules voor</Muted> {energyLabels[product.energy].toLowerCase()}
               </h2>

@@ -15,7 +15,8 @@ import {
 import { CtaBand } from "../components/cta-band";
 import { PageHero } from "../components/page-hero";
 import { ProductCard } from "../components/product-card";
-import { Reveal } from "../components/reveal";
+import { Float } from "../components/motion/float";
+import { Reveal, Stagger, StaggerItem } from "../components/reveal";
 import { Eyebrow, Muted, PillButton } from "../components/ui";
 import { asset } from "../lib/asset";
 import { products } from "../lib/products";
@@ -55,6 +56,31 @@ const flows = [
   },
 ];
 
+/** The three installations most customers inject from, as tall photo cards. */
+const tallCards = [
+  {
+    title: "Zonnepanelen",
+    body: "Uw dak levert overdag vaak meer dan u verbruikt. Dat overschot verkoopt u aan Elexys.",
+    image: "/images/rooftop-solar.jpg",
+    alt: "Zonnepanelen op het dak van een bedrijfsgebouw",
+    icon: Sun,
+  },
+  {
+    title: "Windmolen",
+    body: "Ook stroom uit wind injecteert u aan een vaste of variabele prijs.",
+    image: "/images/offshore.jpg",
+    alt: "Windturbines op zee",
+    icon: Wind,
+  },
+  {
+    title: "Batterij",
+    body: "Met opslag en slimme sturing verschuift u verbruik naar goedkope momenten.",
+    image: "/images/solar.jpg",
+    alt: "Zonnepark met batterijopslag",
+    icon: BatteryCharging,
+  },
+];
+
 export default function SellEnergyPage() {
   const injection = products.filter((p) => p.energy === "injectie");
   return (
@@ -70,8 +96,42 @@ export default function SellEnergyPage() {
         image="/images/rooftop-solar.jpg"
         imageAlt="Zonnepanelen op het dak van een bedrijfsgebouw"
         crumbs={[{ label: "Oplossingen", href: "/oplossingen" }, { label: "Energie verkopen" }]}
+        align="center"
+        aside={
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-end">
+            <Float speed={0.6}>
+              <div className="flex items-center gap-4 rounded-3xl border border-white/25 bg-white/15 p-2 pr-6 text-left text-white backdrop-blur-xl">
+                <div className="relative h-20 w-28 overflow-hidden rounded-2xl">
+                  <Image src={asset("/images/solar.jpg")} alt="" fill sizes="112px" className="object-cover" />
+                </div>
+                <div>
+                  <p className="text-lg font-medium">Injectie</p>
+                  <p className="mt-0.5 max-w-[170px] text-xs text-white/75">
+                    5 formules: vast, via clicks, variabel of gecombineerd
+                  </p>
+                </div>
+              </div>
+            </Float>
+            <Float speed={1.2}>
+              <div className="rounded-3xl border border-white/25 bg-white/15 p-5 text-left text-white backdrop-blur-xl">
+                <div className="flex -space-x-2">
+                  {[Sun, Wind, BatteryCharging].map((Icon, i) => (
+                    <span key={i} className="grid size-9 place-items-center rounded-full bg-white text-brand ring-2 ring-white/40">
+                      <Icon className="size-4" />
+                    </span>
+                  ))}
+                </div>
+                <p className="mt-3 max-w-[190px] text-xs text-white/80">
+                  Eén offerte voor levering én aankoop met Produxion
+                </p>
+              </div>
+            </Float>
+          </div>
+        }
       >
-        <PillButton href="/contact">Vraag een injectie-offerte aan</PillButton>
+        <PillButton href="/contact" variant="sky">
+          Vraag een injectie-offerte aan
+        </PillButton>
       </PageHero>
 
       {/* Green Power-style: photo with overlapping stat cards */}
@@ -132,7 +192,7 @@ export default function SellEnergyPage() {
 
       {/* Injection products */}
       <section className="mx-auto max-w-[1240px] px-6 py-16 sm:px-10">
-        <Reveal>
+        <Reveal variant="mask">
           <h2 className="text-4xl leading-[1.1] font-light tracking-[-0.03em] sm:text-5xl">
             <Muted>Onze</Muted> injectieformules
           </h2>
@@ -146,27 +206,50 @@ export default function SellEnergyPage() {
         </div>
       </section>
 
-      {/* Installations */}
-      <section className="px-2 py-10 sm:px-3">
-        <div className="mx-auto max-w-[1400px] rounded-[36px] bg-surface px-6 py-16 sm:px-10 sm:py-20">
-          <div className="mx-auto max-w-[1240px]">
-            <Reveal>
-              <h2 className="max-w-2xl text-3xl leading-[1.1] font-light tracking-[-0.03em] sm:text-4xl">
-                <Muted>Welke installatie</Muted> heeft uw bedrijf <Muted>vandaag?</Muted>
-              </h2>
-            </Reveal>
-            <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
-              {installations.map((it, i) => (
-                <Reveal key={it.label} delay={i * 0.04}>
-                  <div className="flex h-full flex-col gap-6 rounded-[24px] bg-white p-5">
-                    <it.icon className="size-7 text-brand" strokeWidth={1.5} />
-                    <p className="text-sm font-medium text-ink">{it.label}</p>
-                  </div>
-                </Reveal>
-              ))}
-            </div>
-          </div>
-        </div>
+      {/* Installations: Nirosolar-style tall image cards with icon badges */}
+      <section className="mx-auto max-w-[1240px] px-6 py-20 sm:px-10 sm:py-24">
+        <Reveal>
+          <p className="text-center text-sm text-muted">Van dak tot batterij</p>
+        </Reveal>
+        <Reveal variant="mask">
+          <h2 className="mx-auto mt-3 max-w-2xl text-center text-4xl leading-[1.1] font-light tracking-[-0.03em] sm:text-5xl">
+            <Muted>Welke installatie</Muted> heeft uw bedrijf vandaag?
+          </h2>
+        </Reveal>
+        <Stagger className="mt-14 grid gap-4 md:grid-cols-3">
+          {tallCards.map((c) => (
+            <StaggerItem key={c.title}>
+              <article className="group relative isolate flex aspect-[3/4] flex-col justify-end overflow-hidden rounded-[28px] p-6 text-white">
+                <Image
+                  src={asset(c.image)}
+                  alt={c.alt}
+                  fill
+                  sizes="(min-width: 768px) 33vw, 100vw"
+                  className="-z-10 object-cover transition-transform duration-[1400ms] ease-out-soft group-hover:scale-[1.06]"
+                />
+                <div className="absolute inset-0 -z-10 bg-gradient-to-t from-brand-ink/85 via-brand-ink/10 to-transparent" />
+                <span className="mb-5 grid size-11 place-items-center rounded-full bg-white/20 ring-1 ring-white/40 backdrop-blur-md">
+                  <c.icon className="size-5" />
+                </span>
+                <h3 className="text-2xl font-medium tracking-tight">{c.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-white/75">{c.body}</p>
+              </article>
+            </StaggerItem>
+          ))}
+        </Stagger>
+        <Reveal className="mt-8 flex flex-wrap justify-center gap-2">
+          {installations
+            .filter((i) => !tallCards.some((c) => c.title.startsWith(i.label)))
+            .map((i) => (
+              <span
+                key={i.label}
+                className="inline-flex items-center gap-2 rounded-full bg-surface px-4 py-2 text-sm text-ink"
+              >
+                <i.icon className="size-4 text-brand" />
+                {i.label}
+              </span>
+            ))}
+        </Reveal>
       </section>
 
       {/* Smart control (sturing) */}

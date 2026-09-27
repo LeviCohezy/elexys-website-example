@@ -14,6 +14,11 @@ import {
 } from "lucide-react";
 import { CtaBand } from "./components/cta-band";
 import { ImageTile } from "./components/image-tile";
+import { CountUp } from "./components/motion/count-up";
+import { Float } from "./components/motion/float";
+import { ParallaxImage } from "./components/motion/parallax-image";
+import { PinnedScroller } from "./components/motion/pinned-scroller";
+import { VelocityMarquee } from "./components/motion/velocity-marquee";
 import { Nav } from "./components/nav";
 import { PostCard } from "./components/post-card";
 import { Reveal } from "./components/reveal";
@@ -46,13 +51,11 @@ function Hero() {
   return (
     <section className="p-2 sm:p-3">
       <div className="relative isolate flex min-h-[640px] flex-col overflow-hidden rounded-[28px] sm:min-h-[760px] sm:rounded-[36px] lg:min-h-[min(calc(100svh-24px),920px)]">
-        <Image
+        <ParallaxImage
           src={asset("/images/hero.jpg")}
           alt="Hoogspanningslijnen door een open landschap onder een helderblauwe lucht"
-          fill
           preload
-          sizes="100vw"
-          className="animate-hero-zoom -z-20 object-cover object-[70%_center]"
+          className="object-[70%_center]"
         />
         {/* Brand-tinted legibility wash */}
         <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[#0a1a4a]/65 via-[#0a1a4a]/20 to-transparent" />
@@ -65,7 +68,7 @@ function Hero() {
             <Reveal>
               <Eyebrow tone="dark">Energieleverancier voor bedrijven</Eyebrow>
             </Reveal>
-            <Reveal delay={0.08}>
+            <Reveal delay={0.08} variant="mask">
               <h1 className="mt-7 text-[44px] leading-[1.02] font-medium tracking-[-0.035em] text-white sm:text-7xl lg:text-[88px]">
                 Een slimmere
                 <br />
@@ -92,41 +95,59 @@ function Hero() {
           <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
             {/* Glass card, AeroWind-style */}
             <Reveal delay={0.3} className="hidden sm:block">
-              <Link
-                href="/energie-verkopen"
-                className="group flex items-center gap-4 rounded-3xl border border-white/25 bg-white/10 p-2 pr-8 backdrop-blur-xl transition-colors hover:bg-white/15"
-              >
-                <div className="relative h-24 w-36 overflow-hidden rounded-2xl">
-                  <Image src={asset("/images/solar.jpg")} alt="" fill sizes="144px" className="object-cover" />
-                </div>
-                <div>
-                  <span className="rounded-full bg-sky px-2.5 py-0.5 text-[11px] font-medium text-brand-ink">
-                    Injectie
-                  </span>
-                  <p className="mt-2 flex items-center gap-1.5 text-xl font-light text-white">
-                    Energie verkopen
-                    <ArrowUpRight className="size-4 transition-transform group-hover:rotate-45" />
-                  </p>
-                  <p className="mt-1 text-xs text-white/70">
-                    Een eerlijke prijs voor de stroom die u zelf produceert
-                  </p>
-                </div>
-              </Link>
+              <Float speed={0.5}>
+                <Link
+                  href="/energie-verkopen"
+                  className="group flex items-center gap-4 rounded-3xl border border-white/25 bg-white/10 p-2 pr-8 backdrop-blur-xl transition-colors hover:bg-white/15"
+                >
+                  <div className="relative h-24 w-36 overflow-hidden rounded-2xl">
+                    <Image
+                      src={asset("/images/solar.jpg")}
+                      alt=""
+                      fill
+                      sizes="144px"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div>
+                    <span className="rounded-full bg-sky px-2.5 py-0.5 text-[11px] font-medium text-brand-ink">
+                      Injectie
+                    </span>
+                    <p className="mt-2 flex items-center gap-1.5 text-xl font-light text-white">
+                      Energie verkopen
+                      <ArrowUpRight className="size-4 transition-transform group-hover:rotate-45" />
+                    </p>
+                    <p className="mt-1 text-xs text-white/70">
+                      Een eerlijke prijs voor de stroom die u zelf produceert
+                    </p>
+                  </div>
+                </Link>
+              </Float>
             </Reveal>
 
             {/* Stat card, Ecoriz-style */}
             <Reveal delay={0.38}>
-              <div className="flex items-center gap-4 rounded-3xl bg-white p-2 pr-7 shadow-2xl shadow-brand-ink/25">
-                <div className="relative h-24 w-32 overflow-hidden rounded-2xl">
-                  <Image src={asset("/images/contact.jpg")} alt="" fill sizes="128px" className="object-cover" />
+              <Float speed={1.1}>
+                <div className="flex items-center gap-4 rounded-3xl bg-white p-2 pr-7 shadow-2xl shadow-brand-ink/25">
+                  <div className="relative h-24 w-32 overflow-hidden rounded-2xl">
+                    <Image
+                      src={asset("/images/contact.jpg")}
+                      alt=""
+                      fill
+                      sizes="128px"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div>
+                    <p className="text-3xl font-medium tracking-tight text-ink">
+                      <CountUp to={24} suffix="u" />
+                    </p>
+                    <p className="mt-1 max-w-[190px] text-xs leading-snug text-muted">
+                      Na elke online aanvraag bellen we u op werkdagen binnen de 24 uur
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <p className="text-3xl font-medium tracking-tight text-ink">24u</p>
-                  <p className="mt-1 max-w-[190px] text-xs leading-snug text-muted">
-                    Na elke online aanvraag bellen we u op werkdagen binnen de 24 uur
-                  </p>
-                </div>
-              </div>
+              </Float>
             </Reveal>
           </div>
         </div>
@@ -149,25 +170,23 @@ const markets = [
 ];
 
 function Markets() {
-  const row = [...markets, ...markets];
   return (
     <section className="py-14 sm:py-16">
       <p className="px-6 text-center text-xs font-medium tracking-[0.18em] text-subtle uppercase">
         Transparante prijzen, gekoppeld aan de Europese energiebeurzen
       </p>
-      <div className="relative mx-auto mt-8 max-w-[1240px] overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_12%,black_88%,transparent)]">
-        <div className="animate-marquee flex w-max gap-16 pr-16">
-          {row.map(({ name, icon: Icon }, i) => (
+      <div className="mx-auto mt-8 max-w-[1240px]">
+        <VelocityMarquee>
+          {markets.map(({ name, icon: Icon }) => (
             <div
-              key={i}
+              key={name}
               className="flex items-center gap-2 text-lg font-medium tracking-tight whitespace-nowrap text-ink/45"
-              aria-hidden={i >= markets.length}
             >
               <Icon className="size-5" strokeWidth={2.25} />
               {name}
             </div>
           ))}
-        </div>
+        </VelocityMarquee>
       </div>
     </section>
   );
@@ -186,7 +205,7 @@ function Features() {
         <Reveal>
           <Eyebrow>Waarom Elexys</Eyebrow>
         </Reveal>
-        <Reveal delay={0.08}>
+        <Reveal delay={0.08} variant="mask">
           <h2 className="text-4xl leading-[1.08] font-medium tracking-[-0.03em] sm:text-5xl">
             Altijd tot uw dienst.
             <br />
@@ -307,69 +326,89 @@ function Donut() {
   );
 }
 
+const solutionTiles = [
+  {
+    href: "/oplossingen/#elektriciteit",
+    src: "/images/industry.jpg",
+    alt: "Productiehal van een Belgisch bedrijf",
+    tag: "Elektriciteit",
+    title: "Stroom voor uw bedrijf",
+    text: "Vast, via clicks of variabel op basis van de BELPEX.",
+  },
+  {
+    href: "/oplossingen/#gas",
+    src: "/images/gas.jpg",
+    alt: "Industriële aardgasinstallatie",
+    tag: "Aardgas",
+    title: "Aardgas op maat",
+    text: "Een vaste prijs, gespreid vastgelegd of variabel op de TTF.",
+  },
+  {
+    href: "/energie-verkopen",
+    src: "/images/rooftop-solar.jpg",
+    alt: "Zonnepanelen op het dak van een bedrijfsgebouw",
+    tag: "Injectie",
+    title: "Verkoop uw eigen stroom",
+    text: "Een eerlijke prijs voor wat uw installatie op het net zet.",
+  },
+  {
+    href: "/insights",
+    src: "/images/trading.jpg",
+    alt: "Energietraders volgen prijscurves op",
+    tag: "Marktinformatie",
+    title: "Volg de markt mee",
+    text: "De indexen achter uw prijsformule, met grafiek en tabel.",
+  },
+];
+
 function Solutions() {
   return (
-    <section className="mx-auto max-w-[1240px] px-6 py-20 sm:px-10 sm:py-24">
-      <Reveal>
-        <h2 className="max-w-3xl text-4xl leading-[1.1] font-light tracking-[-0.03em] sm:text-5xl">
-          <Muted>Oplossingen voor</Muted> aankoop, injectie <Muted>of de</Muted> combinatie van
-          beide
-        </h2>
-      </Reveal>
-
-      <div className="mt-14 grid gap-4 lg:grid-cols-12">
-        <Reveal className="lg:col-span-5">
-          <ImageTile
-            href="/oplossingen/#elektriciteit"
-            src="/images/industry.jpg"
-            alt="Productiehal van een Belgisch bedrijf"
-            tag="Elektriciteit"
-            title="Stroom voor uw bedrijf"
-          />
-        </Reveal>
-        <Reveal delay={0.08} className="lg:col-span-7">
-          <ImageTile
-            href="/oplossingen/#gas"
-            src="/images/gas.jpg"
-            alt="Industriële aardgasinstallatie"
-            tag="Aardgas"
-            title="Aardgas aan een vaste of variabele prijs"
-          />
-        </Reveal>
-        <Reveal className="lg:col-span-7">
-          <ImageTile
-            href="/energie-verkopen"
-            src="/images/rooftop-solar.jpg"
-            alt="Zonnepanelen op het dak van een bedrijfsgebouw"
-            tag="Injectie"
-            title="Verkoop de energie die u zelf produceert"
-          />
-        </Reveal>
-        <Reveal delay={0.08} className="lg:col-span-5">
-          <article className="flex h-full min-h-[340px] flex-col rounded-[28px] border border-line p-6">
-            <div className="flex items-center justify-between">
-              <p className="text-sm font-medium">Gespreide inkoopstrategie</p>
-              <span className="text-xs text-muted">Voorbeeld</span>
-            </div>
-            <div className="relative flex flex-1 items-center justify-center py-4">
-              <Donut />
-              <div className="absolute max-w-[110px] text-center">
-                <p className="text-sm leading-snug font-medium">Minder risico</p>
-                <p className="text-xs text-muted">op het verkeerde moment vastleggen</p>
-              </div>
-            </div>
-            <ul className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-xs text-muted">
-              {strategy.map((m) => (
-                <li key={m.label} className="flex items-center gap-1.5">
-                  <span className="size-2 rounded-full" style={{ background: m.color }} />
-                  {m.label} {m.value}%
-                </li>
-              ))}
-            </ul>
-          </article>
-        </Reveal>
-      </div>
-    </section>
+    <PinnedScroller
+      header={
+        <div className="flex flex-col justify-between gap-6 lg:flex-row lg:items-end">
+          <Reveal variant="mask">
+            <h2 className="max-w-3xl text-4xl leading-[1.1] font-light tracking-[-0.03em] sm:text-5xl">
+              <Muted>Oplossingen voor</Muted> aankoop, injectie <Muted>of de</Muted> combinatie van
+              beide
+            </h2>
+          </Reveal>
+          <Reveal delay={0.1}>
+            <p className="max-w-xs text-sm leading-relaxed text-muted lg:text-right">
+              Scroll verder en ontdek wat Elexys voor uw bedrijf kan betekenen.
+            </p>
+          </Reveal>
+        </div>
+      }
+    >
+      {solutionTiles.map((t) => (
+        <ImageTile
+          key={t.href}
+          {...t}
+          className="w-[82vw] shrink-0 snap-start sm:w-[420px] lg:h-[min(480px,56vh)]"
+        />
+      ))}
+      <article className="flex w-[82vw] shrink-0 snap-start flex-col rounded-[28px] border border-line bg-white p-6 sm:w-[380px] lg:h-[min(480px,56vh)]">
+        <div className="flex items-center justify-between">
+          <p className="text-sm font-medium">Gespreide inkoopstrategie</p>
+          <span className="text-xs text-muted">Voorbeeld</span>
+        </div>
+        <div className="relative flex flex-1 items-center justify-center py-4">
+          <Donut />
+          <div className="absolute max-w-[110px] text-center">
+            <p className="text-sm leading-snug font-medium">Minder risico</p>
+            <p className="text-xs text-muted">op het verkeerde moment vastleggen</p>
+          </div>
+        </div>
+        <ul className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-xs text-muted">
+          {strategy.map((m) => (
+            <li key={m.label} className="flex items-center gap-1.5">
+              <span className="size-2 rounded-full" style={{ background: m.color }} />
+              {m.label} {m.value}%
+            </li>
+          ))}
+        </ul>
+      </article>
+    </PinnedScroller>
   );
 }
 
@@ -381,7 +420,7 @@ function PriceModels() {
   return (
     <section className="mx-auto max-w-[1240px] px-6 py-20 sm:px-10 sm:py-24">
       <div className="grid items-end gap-6 lg:grid-cols-2">
-        <Reveal>
+        <Reveal variant="mask">
           <h2 className="text-4xl leading-[1.1] font-light tracking-[-0.03em] sm:text-5xl">
             Vast <Muted>of</Muted> variabel?
             <br />
@@ -469,7 +508,7 @@ function Team() {
   return (
     <section className="mx-auto max-w-[1240px] px-6 py-20 sm:px-10 sm:py-28">
       <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
-        <Reveal>
+        <Reveal variant="mask">
           <h2 className="text-4xl leading-[1.1] font-light tracking-[-0.03em] sm:text-5xl">
             We leren u
             <br />
@@ -486,8 +525,8 @@ function Team() {
       <div className="mt-14 grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
         <Reveal>
           <p className="max-w-md text-lg leading-relaxed text-ink">
-            De ideale energiestrategie is voor elk bedrijf anders. Ons team van experten biedt u
-            een luisterend oor en advies om het meeste uit uw energiecontract te halen.
+            De ideale energiestrategie is voor elk bedrijf anders. Ons team van experten biedt u een
+            luisterend oor en advies om het meeste uit uw energiecontract te halen.
           </p>
           <h3 className="mt-10 text-sm font-medium tracking-[0.14em] text-subtle uppercase">
             Wat u van ons mag verwachten

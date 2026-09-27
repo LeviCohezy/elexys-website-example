@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { GraduationCap, Headset, Home, MessagesSquare, Phone, Quote, Shuffle } from "lucide-react";
 import { CtaBand } from "../components/cta-band";
+import { CountUp } from "../components/motion/count-up";
+import { ScrollScale } from "../components/motion/scroll-scale";
 import { GroupNetwork } from "../components/group-network";
 import { PageHero } from "../components/page-hero";
 import { Reveal } from "../components/reveal";
@@ -15,10 +17,15 @@ export const metadata: Metadata = {
 };
 
 const stats = [
-  { value: "2010", label: "Opgericht door Eric Olivier en Jean-Charles Carrette" },
-  { value: "2.200 m²", label: "Hoofdgebouw in het Blue Oak bedrijvencentrum" },
-  { value: "300 kW", label: "Zonnepanelen op de loodsen en carport" },
-  { value: "22", label: "Laadpalen voor wie elektrisch op bezoek komt" },
+  { value: 2010, label: "Opgericht door Eric Olivier en Jean-Charles Carrette", count: false },
+  {
+    value: 2200,
+    suffix: " m²",
+    label: "Hoofdgebouw in het Blue Oak bedrijvencentrum",
+    count: true,
+  },
+  { value: 300, suffix: " kW", label: "Zonnepanelen op de loodsen en carport", count: true },
+  { value: 22, label: "Laadpalen voor wie elektrisch op bezoek komt", count: true },
 ];
 
 /** The four "Altijd tot uw dienst" strengths from the elexys.be homepage. */
@@ -82,18 +89,30 @@ export default function AboutPage() {
           <Eyebrow>Ons verhaal</Eyebrow>
         </Reveal>
         <div className="pointer-events-none absolute top-24 right-10 hidden h-28 w-44 overflow-hidden rounded-2xl lg:block">
-          <Image src={asset("/images/trading.jpg")} alt="" fill sizes="176px" className="object-cover" />
+          <Image
+            src={asset("/images/trading.jpg")}
+            alt=""
+            fill
+            sizes="176px"
+            className="object-cover"
+          />
         </div>
         <div className="pointer-events-none absolute bottom-20 left-10 hidden h-28 w-44 overflow-hidden rounded-2xl lg:block">
-          <Image src={asset("/images/solar.jpg")} alt="" fill sizes="176px" className="object-cover" />
+          <Image
+            src={asset("/images/solar.jpg")}
+            alt=""
+            fill
+            sizes="176px"
+            className="object-cover"
+          />
         </div>
         <Reveal delay={0.08}>
           <p className="mx-auto mt-10 max-w-4xl text-center text-3xl leading-[1.2] font-medium tracking-[-0.03em] sm:text-[44px]">
             Een investering in zonnepanelen bracht weinig op. Die frustratie zette de schoonbroers
             aan tot onderzoek.{" "}
             <Muted>
-              De conclusie was duidelijk: het bestaande energieaanbod loste de noden van kmo’s
-              niet voldoende in.
+              De conclusie was duidelijk: het bestaande energieaanbod loste de noden van kmo’s niet
+              voldoende in.
             </Muted>
           </p>
         </Reveal>
@@ -109,11 +128,13 @@ export default function AboutPage() {
         <div className="grid grid-cols-2 gap-y-10 border-y border-line py-12 lg:grid-cols-4">
           {stats.map((s, i) => (
             <Reveal
-              key={s.value}
+              key={s.label}
               delay={i * 0.06}
               className={`px-2 sm:px-6 ${i > 0 ? "lg:border-l lg:border-line" : ""} ${i % 2 ? "border-l border-line lg:border-l" : ""}`}
             >
-              <p className="text-4xl font-medium tracking-tight text-ink sm:text-5xl">{s.value}</p>
+              <p className="text-4xl font-medium tracking-tight text-ink sm:text-5xl">
+                {s.count ? <CountUp to={s.value} suffix={s.suffix} /> : s.value}
+              </p>
               <p className="mt-3 max-w-[200px] text-xs leading-snug text-muted uppercase">
                 {s.label}
               </p>
@@ -126,13 +147,13 @@ export default function AboutPage() {
       <section className="px-2 py-10 sm:px-3">
         <div className="mx-auto max-w-[1400px] rounded-[36px] bg-brand-ink px-6 py-20 text-white sm:px-10 sm:py-24">
           <div className="mx-auto max-w-[1240px]">
-            <Reveal>
+            <Reveal variant="mask">
               <h2 className="mx-auto max-w-2xl text-center text-4xl leading-[1.1] font-light tracking-[-0.03em] sm:text-5xl">
                 Altijd tot uw dienst, <span className="text-sky">op elk vlak</span>
               </h2>
               <p className="mx-auto mt-5 max-w-xl text-center text-[15px] leading-relaxed text-white/65">
-                Met anticipatie en een transparante prijszetting maken we het verschil in een constant
-                bewegende markt.
+                Met anticipatie en een transparante prijszetting maken we het verschil in een
+                constant bewegende markt.
               </p>
             </Reveal>
             <div className="mt-14 grid gap-4 md:grid-cols-2 lg:grid-cols-[1fr_1.1fr_1fr]">
@@ -141,7 +162,10 @@ export default function AboutPage() {
                   <Strength key={f.title} f={f} delay={i * 0.06} />
                 ))}
               </div>
-              <Reveal delay={0.1} className="md:col-span-2 md:row-start-1 lg:col-span-1 lg:col-start-2">
+              <Reveal
+                delay={0.1}
+                className="md:col-span-2 md:row-start-1 lg:col-span-1 lg:col-start-2"
+              >
                 <div className="relative h-full min-h-[360px] overflow-hidden rounded-[24px]">
                   <Image
                     src={asset("/images/contact.jpg")}
@@ -195,8 +219,8 @@ export default function AboutPage() {
               slim energiebeheer, met een sterke focus op technologie en transparantie.{" "}
               <Muted>
                 Zo kunnen we snel inspelen op marktveranderingen en onze klanten proactief
-                informeren over opportuniteiten, prijsontwikkelingen en manieren om
-                aankooprisico’s te beperken.
+                informeren over opportuniteiten, prijsontwikkelingen en manieren om aankooprisico’s
+                te beperken.
               </Muted>
             </blockquote>
             <p className="mt-8 text-sm">
@@ -238,7 +262,7 @@ export default function AboutPage() {
       {/* Building */}
       <section className="mx-auto max-w-[1240px] px-6 py-20 sm:px-10 sm:py-24">
         <Reveal>
-          <div className="relative isolate overflow-hidden rounded-[32px]">
+          <ScrollScale className="relative isolate">
             <div className="relative aspect-[16/9] min-h-[380px] w-full">
               <Image
                 src={asset("/images/office-solar.jpg")}
@@ -255,7 +279,7 @@ export default function AboutPage() {
                 aan klassieke energie.
               </p>
             </div>
-          </div>
+          </ScrollScale>
         </Reveal>
       </section>
 

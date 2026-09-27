@@ -99,7 +99,7 @@ export default function SolutionsPage() {
           />
           <div className="absolute inset-0 -z-10 bg-gradient-to-b from-brand-ink/70 via-brand-ink/35 to-brand-ink/60" />
           <div className="mx-auto max-w-[1240px]">
-            <Reveal>
+            <Reveal variant="mask">
               <h2 className="mx-auto max-w-2xl text-center text-4xl leading-[1.1] font-light tracking-[-0.03em] text-white sm:text-5xl">
                 Een slimme strategie <span className="text-sky">begint bij uw prijsformule</span>
               </h2>

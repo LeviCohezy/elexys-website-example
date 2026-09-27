@@ -4,7 +4,7 @@ import { CtaBand } from "../components/cta-band";
 import { PageHero } from "../components/page-hero";
 import { Reveal } from "../components/reveal";
 import { Muted } from "../components/ui";
-import { readScraped } from "../lib/scraped";
+import { getMarketUpdates } from "../lib/market-updates";
 
 export const metadata: Metadata = {
   title: "Uw maandelijkse marktupdates",
@@ -12,19 +12,8 @@ export const metadata: Metadata = {
     "Maandelijkse updates over de evolutie van de elektriciteits- en aardgasprijzen, als pdf.",
 };
 
-/** "[Market Update 03.09.2026\n\n03 sep 2026\n\nDownloaden](…pdf)" entries on elexys.be. */
-function getUpdates() {
-  const { body } = readScraped("market-updates");
-  const re = /\[(Market Updates? [^\n]+)\n+([^\n]+)\n+Downloaden\]\(([^)\s]+)\)/g;
-  return [...body.matchAll(re)].map((m) => ({
-    title: m[1].trim().replace(/^Market Updates/, "Market Update"),
-    date: m[2].trim(),
-    href: m[3],
-  }));
-}
-
 export default function MarketUpdatesPage() {
-  const [latest, ...rest] = getUpdates();
+  const [latest, ...rest] = getMarketUpdates();
   return (
     <main>
       <PageHero
@@ -64,7 +53,7 @@ export default function MarketUpdatesPage() {
             </a>
           </Reveal>
 
-          <Reveal delay={0.08}>
+          <Reveal delay={0.08} variant="mask">
             <h2 className="mb-4 text-2xl font-light tracking-tight">
               <Muted>Eerdere</Muted> updates
             </h2>

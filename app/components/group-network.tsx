@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, Cpu, LineChart, PlugZap, Zap } from "lucide-react";
 import { asset } from "../lib/asset";
+import { Float } from "./motion/float";
 
 /** The Elexys group and partner, from elexys.be/over-ons and the Companion Energy blog post. */
 const nodes = [
@@ -55,7 +56,9 @@ function NodeCard({ n }: { n: (typeof nodes)[number] }) {
         <Image src={asset(n.image)} alt="" fill sizes="240px" className="object-cover" />
       </div>
       <div className="relative -mt-8 mx-3 mb-1 rounded-2xl bg-white px-4 py-3 shadow-lg shadow-brand-ink/10">
-        <p className={`flex items-center justify-between gap-2 text-sm font-medium ${n.highlight ? "text-brand" : "text-ink"}`}>
+        <p
+          className={`flex items-center justify-between gap-2 text-sm font-medium ${n.highlight ? "text-brand" : "text-ink"}`}
+        >
           {n.name}
           {n.href && <ArrowUpRight className="size-3.5 text-subtle" />}
         </p>
@@ -68,9 +71,13 @@ function NodeCard({ n }: { n: (typeof nodes)[number] }) {
   } transition-transform duration-500 hover:rotate-0`;
   if (!n.href) return <div className={cls}>{body}</div>;
   return n.href.startsWith("http") ? (
-    <a href={n.href} target="_blank" rel="noopener" className={cls}>{body}</a>
+    <a href={n.href} target="_blank" rel="noopener" className={cls}>
+      {body}
+    </a>
   ) : (
-    <Link href={n.href} className={cls}>{body}</Link>
+    <Link href={n.href} className={cls}>
+      {body}
+    </Link>
   );
 }
 
@@ -79,7 +86,12 @@ export function GroupNetwork() {
   return (
     <>
       <div className="relative hidden h-[600px] lg:block">
-        <svg className="absolute inset-0 size-full" viewBox="0 0 1000 600" preserveAspectRatio="none" aria-hidden>
+        <svg
+          className="absolute inset-0 size-full"
+          viewBox="0 0 1000 600"
+          preserveAspectRatio="none"
+          aria-hidden
+        >
           <path
             d="M120,170 C220,40 380,40 470,110 S700,60 830,190 S760,470 640,420 S330,560 180,470 S20,300 120,170 Z"
             fill="none"
@@ -100,10 +112,12 @@ export function GroupNetwork() {
             {c.label}
           </span>
         ))}
-        {nodes.map((n) => (
-          <div key={n.name} style={n.pos} className={`absolute ${n.tilt}`}>
-            <NodeCard n={n} />
-          </div>
+        {nodes.map((n, i) => (
+          <Float key={n.name} speed={[0.8, 1.4, 0.6, 1.1][i]} style={n.pos} className="absolute">
+            <div className={n.tilt}>
+              <NodeCard n={n} />
+            </div>
+          </Float>
         ))}
       </div>
 

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter_Tight } from "next/font/google";
 import { Footer } from "./components/footer";
+import { ScrollProgress } from "./components/motion/scroll-progress";
 import "./globals.css";
 
 const interTight = Inter_Tight({
@@ -33,6 +34,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="nl-BE" className={`${interTight.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
+        <ScrollProgress />
         <div className="flex-1">{children}</div>
         <Footer />
       </body>

@@ -68,7 +68,7 @@ export default async function PostPage({ params }: PageProps<"/blog/[slug]">) {
       </article>
 
       <section className="mx-auto max-w-[1240px] px-6 pb-8 sm:px-10">
-        <Reveal>
+        <Reveal variant="mask">
           <h2 className="text-3xl leading-[1.1] font-light tracking-[-0.03em] sm:text-4xl">
             <Muted>Lees</Muted> ook
           </h2>

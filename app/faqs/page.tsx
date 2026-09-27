@@ -60,7 +60,7 @@ export default function FaqPage() {
           <div className="space-y-16">
             {groups.map((g) => (
               <section key={g.slug} id={g.slug} className="scroll-mt-28">
-                <Reveal>
+                <Reveal variant="mask">
                   <h2 className="flex items-center gap-3 text-3xl font-light tracking-[-0.03em] sm:text-4xl">
                     <span aria-hidden className="text-2xl">{g.icon}</span>
                     {g.title}
